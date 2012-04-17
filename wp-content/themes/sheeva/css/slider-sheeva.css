@@ -1,0 +1,298 @@
+/*
+    AnythingSlider v1.7+ Default (base) theme
+    By Chris Coyier: http://css-tricks.com
+    with major improvements by Doug Neiner: http://pixelgraphics.us/
+    based on work by Remy Sharp: http://jqueryfordesigners.com/
+*/
+
+/*****************************
+  SET DEFAULT DIMENSIONS HERE
+ *****************************/
+/* change the ID to match your slider */
+
+/* Opera width restriction */
+.anythingBase { max-width: 32766px; }
+
+/*****************
+  SET COLORS HERE
+ *****************/
+/**** Default state (no keyboard focus) ****/
+/* slider window - top & bottom borders, default state */
+div.anythingSlider .anythingWindow {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+ul.anythingBase {
+    background: none repeat scroll 0 0 transparent;
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+
+
+ul.anythingBase li.panel {
+    background: none repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    list-style-type: none !important;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+/* Navigation buttons, default state */
+div.anythingSlider .anythingControls ul a.cur, div.anythingSlider .anythingControls ul a {
+    background-position: center top;
+}
+/* start-stop button, stopped, default state */
+div.anythingSlider .start-stop {
+    background-color: #040;
+    color: #fff;
+}
+/* start-stop button, playing, default state */
+div.anythingSlider .start-stop.playing {
+    background-color: #800;
+}
+/* start-stop button, default hovered text color (when visible) */
+div.anythingSlider .start-stop:hover, div.anythingSlider .start-stop.hover {
+    color: #ddd;
+}
+
+/**** Active State (slider has keyboard focus) ****/
+/* slider window - top & bottom borders, active state */
+div.anythingSlider.activeSlider .anythingWindow {
+
+}
+/* Navigation buttons, active state */
+div.anythingSlider.activeSlider .anythingControls ul a.cur, div.anythingSlider.activeSlider .anythingControls ul a {
+
+}
+ div.anythingSlider.activeSlider .anythingControls ul a span{visibility:hidden;}
+/* start-stop button, stopped, active state */
+div.anythingSlider .start-stop {
+    background-color: #080;
+    color: #fff;
+}
+/* start-stop button, playing, active state */
+div.anythingSlider .start-stop.playing {
+    background-color: #d00;
+}
+/* start-stop button, active slider hovered text color (when visible) */
+div.anythingSlider .start-stop:hover, div.anythingSlider .start-stop.hover {
+    color: #fff;
+}
+
+/***********************
+  COMMON SLIDER STYLING
+ ***********************/
+/* Overall Wrapper: 45px right & left padding for the arrows, 28px @ bottom for navigation */
+div.anythingSlider {
+    display: block;
+    margin: 0 auto;
+    overflow: visible !important; /* needed for Opera and Safari */
+    position: relative;
+}
+/* anythingSlider viewport window */
+div.anythingSlider .anythingWindow {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/* anythingSlider base (original element) */
+.anythingBase {
+    background: transparent;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+/* all panels inside the slider */
+.anythingBase .panel {
+    background: transparent;
+    display: block;
+    overflow: hidden;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation Arrows */
+div.anythingSlider .arrow {
+    top: 70%;
+    position: absolute;
+    display: none;
+    z-index: 1000;
+}
+div.anythingSlider .arrow a {
+    display: block;
+    height: 47px;
+    margin: -70px 0 0 0; /* half height of image */
+    width: 47px;
+    text-align: center;
+    outline: 0;
+    background: url(../images/default.png) no-repeat left center;
+}
+/* hide text, target the span so IE7 doesn't text-indent the link */
+div.anythingSlider .arrow a span { display: block; text-indent: -9999px; }
+/* back arrow */
+div.anythingSlider .back { left: 0; padding-left: 15%; }
+div.anythingSlider .back.disabled { display: none; } /* disabled arrows, hide or reduce opacity: opacity: .5; filter: alpha(opacity=50); */
+/* forward arrow */
+div.anythingSlider .forward { right: 0; padding-right: 15%; }
+div.anythingSlider .forward a { background-position: right center; }
+div.anythingSlider .forward.disabled { display: none; } /* disabled arrows, hide or reduce opacity: opacity: .5; filter: alpha(opacity=50); */
+
+/* Navigation Links */
+div.anythingSlider .anythingControls { outline: 0; display: none; }
+div.anythingSlider .anythingControls ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    top: -285px;
+    width: 100%;}
+div.anythingSlider .anythingControls ul li { display: inline; }
+div.anythingSlider .anythingControls ul a {
+   background-image: url("img/slider-pointer.png");
+    background-position: center bottom;
+    display: inline-block;
+    height: 8px;
+    margin: 0 25px 0 0;
+    outline: 0 none;
+    text-align: center;
+    text-decoration: none;
+    width: 8px;
+}
+div.anythingSlider .anythingControls ul a:hover {
+    background-position:top;
+}
+/* Navigation size window */
+div.anythingSlider .anythingControls .anythingNavWindow { overflow: hidden; float: left; }
+
+/* slider autoplay right-to-left, reverse order of nav links to look better */
+div.anythingSlider.rtl .anythingControls ul a { float: right; } /* reverse order of nav links */
+div.anythingSlider.rtl .anythingControls ul { float: left; }    /* move nav link group to left */
+div.anythingSlider.rtl .anythingWindow {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+/* div.anythingSlider.rtl .start-stop { float: right; } */ /* move start/stop button - in case you want to switch sides */
+
+/* Autoplay Start/Stop button */
+div.anythingSlider .start-stop {
+    background-image: url(../images/default.png);
+    background-position: center -288px;
+    background-repeat: repeat-x;
+    padding: 2px 5px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    z-index: 100;
+    outline: 0;
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+}
+/* hide cell shading on hover - makes the button appear to come forward */
+div.anythingSlider .start-stop:hover, div.anythingSlider .start-stop.hover { background-image: none; }
+
+/* probably not necessary, but added just in case */
+div.anythingSlider, div.anythingSlider .anythingWindow, div.anythingSlider .anythingControls ul a, div.anythingSlider .arrow a, div.anythingSlider .start-stop {
+    transition-duration: 0;
+    -o-transition-duration: 0;
+    -moz-transition-duration: 0;
+    -webkit-transition-duration: 0;
+}
+
+
+
+
+.slide-holder{width:100%!important;height:485px!important;margin:0 auto;position:relative;}
+
+/*.panel img{
+    float: left;
+    height: 485px;
+    width:100%;} */
+
+.slide-content-holder{
+    z-index: 999; 
+    position:relative; 
+    height: 485px;
+}
+
+
+#header {margin-bottom:0 !important;}
+
+
+#slider{
+    height: 485px;
+    margin: 0 auto;
+    position: relative;
+}
+#slider.slider_sheeva { position:relative; /*margin-top:-80px;*/ margin-bottom:30px; padding:0; }
+.slider{width: 100%; height: 485px;}
+#header {position:relative;z-index:1000}
+
+
+
+
+.slider_sheeva .slide-title h2 {
+    font-size: 48px;
+    line-height: 1.2em;
+    color: #282627;
+}
+
+.slider_sheeva .slide-title h2 span { color: #ea7206; }
+
+.slider_sheeva .slide-content {
+    color: #282627;
+    font-size: 14px;
+}
+.slider_sheeva .slide-content p { color: inherit; font-size: 14px; }
+
+
+#sheeva-widget-area {
+    width: 1087px;
+    background: transparent url('../images/bg/sheeva-widget-area.png') no-repeat center top;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -543.5px;
+    bottom: -20px;
+    z-index: 1001;
+}
+
+@media only screen and (max-width: 1000px) {
+    #sheeva-widget-area { width:100%; left:0; margin-left:0; }
+}
+
+.sheeva-widget-content { background: #fff; overflow: hidden; font-size: 12px; padding: 0 15px; }
+.sheeva-widget-content h3, .sheeva-widget-content h2 { margin: 0px; line-height: 1em; font-size: 28px; font-family: 'Rokkitt', serif; }
+.sheeva-widget-content h3 { font-size: 20px; }
+.sheeva-widget-content h2 { font-family: 'Bebas', serif; }
+
+
+.sheeva-widget-content .widget { border-right: 1px solid #ccc; margin-top: 15px; min-height: 98px; margin-bottom:0; width:209px; padding-right:10px; }
+.sheeva-widget-content .widget-last { border:none; float:none; display:block; width: auto !important; }
+
+.sheeva-widget-content .sheeva-text-image-icon-left  { padding-right: 10px;  }
+.sheeva-widget-content .sheeva-text-image-icon-right { padding-left: 10px;  }
+
+.sheeva-widget-content .sheeva_quote { width: 460px; padding-top: 10px; }
+.sheeva-widget-content .sheeva_quote h2 { font-weight: normal; text-align: center; }
+.sheeva-widget-content .sheeva_quote h3 { margin-top: 15px; text-align: center; color: #c07203; }
+
+.sheeva-widget-content .sheeva-lastpost h3 { color: #c07203 }
+
+

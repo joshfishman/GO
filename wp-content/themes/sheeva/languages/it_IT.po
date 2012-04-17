@@ -1,0 +1,2569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bolder 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-08 15:59+0100\n"
+"PO-Revision-Date: 2011-08-08 16:10+0100\n"
+"Last-Translator: Antonio <antonino.scarfi@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "error"
+msgstr "errore"
+
+#: 404.php:12
+msgid "Page not found"
+msgstr "Pagina non trovata"
+
+#: 404.php:15
+msgid "We are sorry but the page you are looking for does not exist."
+msgstr "Siamo spiacenti ma la pagina cercata non esiste."
+
+#: 404.php:16
+msgid "You could retourn to the "
+msgstr "Puoi ritornare a"
+
+#: 404.php:16
+msgid "or search using the search box below"
+msgstr "o cercare qualcosa utilizzando il modulo di ricerca che trovi sotto"
+
+#: archives.php:17
+#, fuzzy
+msgid "Archives by Month"
+msgstr "Archivi"
+
+#: archives.php:22
+msgid "Archives by Subject"
+msgstr "Archivi per Oggetto"
+
+#: comments.php:13
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Questo articolo è protetto da password. Inserisci la password per visualizzare i commenti."
+
+#: comments.php:30
+msgid "no comments"
+msgstr "nessun commento"
+
+#: comments.php:30
+msgid "<span>1</span> comment"
+msgstr "1 <span>commento</span>"
+
+#: comments.php:30
+msgid "<span>%</span> comments"
+msgstr "% <span>commenti</span>"
+
+#: comments.php:35
+#: comments.php:54
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Commenti Precedenti"
+
+#: comments.php:36
+#: comments.php:55
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Commenti Successivi <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:82
+msgid "No trackback or pingback available for this article"
+msgstr "Non ci sono trackback e pingback dispinibili per questo articolo"
+
+#: comments.php:94
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: comments.php:111
+msgid "Name"
+msgstr "Nome"
+
+#: comments.php:113
+msgid "Email"
+msgstr "E-mail"
+
+#: comments.php:115
+msgid "Website"
+msgstr "Sito Web"
+
+#: comments.php:123
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Devi essere <a href=\"%s\">loggato</a> per lasciare un commento."
+
+#: comments.php:124
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Sei loggatto come <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Disconnettiti da questo account\">Disconnetti?</a>"
+
+#: comments.php:129
+msgid "Leave a <span>Reply</span>"
+msgstr "Lascia un Commento"
+
+#: comments.php:130
+#, php-format
+msgid "Leave a <span>Reply</span> to %s"
+msgstr "Lascia un commento su %s"
+
+#: comments.php:131
+msgid "Cancel reply"
+msgstr "Cancella commento"
+
+#: comments.php:132
+msgid "Post Comment"
+msgstr "Invia Commento"
+
+#: header.php:38
+#, fuzzy, php-format
+msgid "Page %s"
+msgstr "%s Padre"
+
+#: loop.php:12
+#, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr "Archivio per la Categoria &#8216;%s&#8217; Category"
+
+#: loop.php:14
+#, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr "Articoli Taggati  &#8216;%s&#8217;"
+
+#: loop.php:16
+#, php-format
+msgid "Archive for %s | Daily archive page"
+msgstr "Archivio per %s | Pagina di archivio giornaliera"
+
+#: loop.php:16
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: loop.php:18
+#, php-format
+msgid "Archive for %s | Monthly archive page"
+msgstr "Archivio per %s | Pagina di archivio mensile"
+
+#: loop.php:18
+msgid "F Y"
+msgstr "F Y"
+
+#: loop.php:20
+#, php-format
+msgid "Archive for %s | Yearly archive page"
+msgstr "Archivio per %s | Pagina di archivio annuale"
+
+#: loop.php:20
+msgid "Y"
+msgstr "Y"
+
+#: loop.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Risultati della Ricerca per: %s"
+
+#: loop.php:24
+msgid "Author Archive"
+msgstr "Archivio Autore"
+
+#: loop.php:26
+msgid "Blog Archives"
+msgstr "Archivio Blog"
+
+#: loop.php:34
+msgid "(this post has no title)"
+msgstr "(questo post non ha titolo)"
+
+#: loop.php:56
+msgid "posted by"
+msgstr "scritto da"
+
+#: loop.php:56
+msgid "on"
+msgstr "in"
+
+#: loop.php:57
+msgid "No comments"
+msgstr "Nessun commento"
+
+#: loop.php:57
+msgid "1 comment"
+msgstr "1 commento"
+
+#: loop.php:57
+#, fuzzy, php-format
+msgid "% comments"
+msgstr "commenti"
+
+#: loop.php:78
+#, fuzzy
+msgid "|| Read more"
+msgstr "|| Continua a leggere"
+
+#: loop.php:84
+#, fuzzy
+msgid "Edit"
+msgstr "(Modifica)"
+
+#: loop.php:98
+#, fuzzy
+msgid "Not Found"
+msgstr "Non %s trovato"
+
+#: loop.php:100
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Spiacenti, nessun risultato è stato trovato per l'archivio richiesto. Forse ti può aiutare reinserendo nuove parole chiavi per la ricerca."
+
+#: loop.php:116
+msgid "Next &raquo;"
+msgstr "Prossimo &raquo;"
+
+#: loop.php:117
+msgid "&laquo; Back"
+msgstr "&laquo; Precedente"
+
+#: searchform.php:2
+#, fuzzy
+msgid "Search for"
+msgstr "Cerca"
+
+#: searchform.php:4
+msgid "Search"
+msgstr "Cerca"
+
+#: sidebar-default.php:8
+msgid "Archives"
+msgstr "Archivi"
+
+#: sidebar-default.php:15
+msgid "Categories"
+msgstr "Categorie"
+
+#: sidebar-default.php:31
+msgid "Blogroll"
+msgstr "Blogroll"
+
+#: core/functions-dashboard.php:16
+msgid "News from the support forum"
+msgstr "Notizie dal forum di supporto"
+
+#: core/functions-dashboard.php:17
+msgid "News from the YIW Blog"
+msgstr "Notizie dal blog di YIW"
+
+#: core/sendemail.php:93
+msgid "Email sent correctly!"
+msgstr "Email inviata correttamente"
+
+#: core/sendemail.php:95
+msgid "An error has been encountered. Please try again."
+msgstr "Si è verificato un errore. Per favore riprova."
+
+#: core/sendemail.php:258
+msgid "send message"
+msgstr "invia messaggio"
+
+#: core/sendemail.php:258
+msgid "alignright"
+msgstr "destra"
+
+#: core/sendemail.php:297
+msgid "wait..."
+msgstr "attendi..."
+
+#: core/settings.php:22
+#, fuzzy, php-format
+msgid "The theme you are using requires WordPress version %s or higher. So, many features of it will not perform correctly."
+msgstr "Il tema che stai utilizzando richiede una versione di WordPress 3.0 o superiore. Molte caratteristiche di questo tema non funzioneranno correttamente con la tua versione attuale di WordPress."
+
+#: core/settings.php:125
+#, php-format
+msgid "%s "
+msgstr "%s "
+
+#: core/settings.php:130
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di moderazione."
+
+#: core/settings.php:139
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s a %2$s"
+
+#: core/settings.php:139
+#: core/settings.php:161
+msgid "(Edit)"
+msgstr "(Modifica)"
+
+#: core/settings.php:161
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: core/default-shortcodes/widgets.php:830
+msgid "Sign up"
+msgstr "Registrati"
+
+#: core/default-widgets/almost_all_categories.php:8
+#, fuzzy
+msgid "Get list of categories, without categories excluded from options panel."
+msgstr "Seleziona le Categorie che vuoi escludere dalla visualizzazione sul Blog."
+
+#: core/default-widgets/almost_all_categories.php:26
+msgid "Widget Title"
+msgstr "Titolo Widget"
+
+#: core/default-widgets/almost_all_categories.php:29
+msgid "Configure this widget on the Theme Option Admin, to exclude the categories from this list."
+msgstr "Configura questo widget su Theme Option per escludere le categorie dalla lista."
+
+#: core/default-widgets/google_map.php:9
+msgid "Box with google map."
+msgstr "Box con Google Map."
+
+#: core/default-widgets/last_tweets.php:8
+msgid "Retrieve the last tweets."
+msgstr "Recupera gli ultimi tweets"
+
+#: core/default-widgets/popular_posts.php:9
+msgid "Show a list of popular posts, in order of comments, with a preview thumb."
+msgstr "Mostra una lista degli articoli più popolari, in ordine di commenti, con un'immagine di anteprima."
+
+#: core/default-widgets/popular_posts.php:64
+#: core/default-widgets/popular_posts.php:65
+#: core/default-widgets/recent_posts.php:62
+msgid "Read More"
+msgstr "|| Continua a leggere"
+
+#: core/default-widgets/popular_posts.php:77
+#: core/default-widgets/recent_posts.php:74
+msgid "Show thumbnail"
+msgstr "Mostra thumbnail"
+
+#: core/default-widgets/popular_posts.php:79
+#: core/default-widgets/recent_posts.php:76
+#: core/theme-options/panel.php:803
+msgid "Yes"
+msgstr "Si"
+
+#: core/default-widgets/popular_posts.php:80
+#: core/default-widgets/recent_posts.php:77
+#: core/theme-options/panel.php:803
+msgid "No"
+msgstr "No"
+
+#: core/default-widgets/recent_posts.php:9
+msgid "The latest posts, with a preview thumb."
+msgstr "Gli ultimi articoli, con una thumbnail di anteprima"
+
+#: core/default-widgets/recent_posts.php:68
+#: core/default-widgets/text_image.php:78
+msgid "Title"
+msgstr "Titolo"
+
+#: core/default-widgets/recent_posts.php:83
+msgid "Items"
+msgstr "Oggetti"
+
+#: core/default-widgets/recent_posts.php:89
+#, fuzzy
+msgid "More Text"
+msgstr "Testo More"
+
+#: core/default-widgets/text_image.php:8
+msgid "Arbitrary text or HTML, with a simple image above text."
+msgstr "Testo o HTML arbitrario, con una semplice immagine sopra il testo."
+
+#: core/default-widgets/text_image.php:13
+msgid "Text With Image"
+msgstr "Testo con immagine"
+
+#: core/default-widgets/text_image.php:84
+msgid "Image"
+msgstr "Immagine"
+
+#: core/default-widgets/text_image.php:99
+msgid "Automatically add paragraphs"
+msgstr "Aggiungi paragrafi automaticamente"
+
+#: core/theme-options/functions-panel.php:6
+msgid "The element you have written is already exists. Please, add another name."
+msgstr "L'elemento appena scritto è già esistente. Per favore,aggiungi un altro nome."
+
+#: core/theme-options/functions-panel.php:7
+#, fuzzy
+msgid "Settings saved"
+msgstr "configurazione salvata"
+
+#: core/theme-options/functions-panel.php:8
+#, fuzzy
+msgid "Settings reset"
+msgstr "cancella configurazione"
+
+#: core/theme-options/functions-panel.php:9
+msgid "Element deleted correctly."
+msgstr "Elemento eliminato correttamente"
+
+#: core/theme-options/functions-panel.php:10
+msgid "Element updated correctly."
+msgstr "Elemento aggiornato correttamente."
+
+#: core/theme-options/functions-panel.php:11
+msgid "Database imported correctly."
+msgstr "Il Database è stato importato correttamente."
+
+#: core/theme-options/functions-panel.php:12
+#: core/theme-options/install/install.php:85
+#, fuzzy
+msgid "An error encoured during during import. Please try again."
+msgstr "Si è verificato un errore. Per favore riprova."
+
+#: core/theme-options/functions-panel.php:13
+#: core/theme-options/install/install.php:73
+msgid "The file you have insert doesn't valid."
+msgstr "Il file che hai inserito non è valido."
+
+#: core/theme-options/functions-panel.php:14
+#: core/theme-options/install/install.php:70
+msgid "I'm sorry, the import featured is disabled."
+msgstr "Mi dispiace, la funzionalità che permette l'importazione dei dati è disabilitata."
+
+#: core/theme-options/functions-panel.php:15
+#, fuzzy
+msgid "Sorting done correctly."
+msgstr "Email inviata correttamente"
+
+#: core/theme-options/panel.php:70
+#: core/theme-options/panel.php:861
+msgid "Save changes"
+msgstr "Salva modifiche"
+
+#: core/theme-options/panel.php:107
+msgid "To easily use the options of the theme, you can use the menu below."
+msgstr "Per facilitarti l'ultilizzo delle opzioni del tema, puoi usare il menu sotto."
+
+#: core/theme-options/panel.php:151
+msgid "Copy to clipboard"
+msgstr "Copia in memoria"
+
+#: core/theme-options/panel.php:504
+#: core/theme-options/panel.php:656
+msgid "Upload Image"
+msgstr "Carica Immagine"
+
+#: core/theme-options/panel.php:565
+#: core/theme-options/panel.php:743
+#: core/theme-options/panel.php:820
+msgid "Delete"
+msgstr "Elimina"
+
+#: core/theme-options/panel.php:622
+msgid "Order"
+msgstr "Ordine"
+
+#: core/theme-options/panel.php:636
+#: core/theme-options/panel.php:637
+msgid "Slide Title"
+msgstr "Titolo Slide"
+
+#: core/theme-options/panel.php:643
+#: core/theme-options/panel.php:644
+msgid "Tooltip Content"
+msgstr "Contenuto Suggerimento"
+
+#: core/theme-options/panel.php:643
+msgid "HTML Tags allowed"
+msgstr "Tag HTML permessi"
+
+#: core/theme-options/panel.php:653
+#: core/theme-options/panel.php:655
+msgid "Image URL"
+msgstr "URL Immagine"
+
+#: core/theme-options/panel.php:666
+#: core/theme-options/panel.php:669
+#, fuzzy
+msgid "URL Video"
+msgstr "Codice del Video"
+
+#: core/theme-options/panel.php:668
+msgid "url by Youtube or Vimeo"
+msgstr "url di Youtube o Vimeo"
+
+#: core/theme-options/panel.php:677
+msgid "Slide Link"
+msgstr "Link Slide"
+
+#: core/theme-options/panel.php:679
+msgid "page"
+msgstr "pagina"
+
+#: core/theme-options/panel.php:680
+msgid "category"
+msgstr "categoria"
+
+#: core/theme-options/panel.php:682
+msgid "url"
+msgstr "url"
+
+#: core/theme-options/panel.php:683
+msgid "none"
+msgstr "nessuno"
+
+#: core/theme-options/panel.php:720
+msgid "Choose a page..."
+msgstr "Scegli una pagina..."
+
+#: core/theme-options/panel.php:758
+msgid "Add/Edit Slide"
+msgstr "Aggiungi/Modifica Slide"
+
+#: core/theme-options/panel.php:789
+msgid "Field Title"
+msgstr "Titolo Campo"
+
+#: core/theme-options/panel.php:790
+#: core/theme-options/include/contact_add.php:147
+msgid "Data Name"
+msgstr "Nome Data"
+
+#: core/theme-options/panel.php:791
+#: core/theme-options/include/contact_add.php:241
+msgid "Required"
+msgstr "Richiesto"
+
+#: core/theme-options/panel.php:792
+msgid "Type"
+msgstr "Tipo"
+
+#: core/theme-options/panel.php:808
+msgid "Move up"
+msgstr "Sposta sopra"
+
+#: core/theme-options/panel.php:814
+msgid "Move down"
+msgstr "Sposta sotto"
+
+#: core/theme-options/panel.php:826
+msgid "No fields created yet."
+msgstr "Ancora nessun campo creato."
+
+#: core/theme-options/panel.php:866
+msgid "If you continue with this action, you will reset all options are in this page."
+msgstr "Se continui con questa azione, resetterai tutte le opzioni di questa pagina."
+
+#: core/theme-options/panel.php:867
+#: core/theme-options/include/contact_add.php:293
+msgid "Reset"
+msgstr "Cancella"
+
+#: core/theme-options/panel.php:867
+msgid "Are you sure of it?"
+msgstr "Sei sicuro di voler continuare?"
+
+#: core/theme-options/settings-panel.php:3
+#, fuzzy
+msgid "Theme Options"
+msgstr "Elimina Opzione"
+
+#: core/theme-options/settings-panel.php:8
+msgid "Panel Import"
+msgstr "Pannello di import"
+
+#: core/theme-options/settings-panel.php:20
+msgid "Choose a category"
+msgstr "Scegli una categoria"
+
+#: core/theme-options/include/contact_add.php:74
+msgid "Add New Field"
+msgstr "Aggiungi Nuovo Campo"
+
+#: core/theme-options/include/contact_add.php:75
+msgid "Add new field for your contact module."
+msgstr "Aggiungi un nuovo campo al tuo modulo contatti."
+
+#: core/theme-options/include/contact_add.php:83
+msgid "Edit Field"
+msgstr "Modifica Campo"
+
+#: core/theme-options/include/contact_add.php:84
+msgid "Edit the attributes of field."
+msgstr "Modifica l'attributo del campo."
+
+#: core/theme-options/include/contact_add.php:137
+msgid "Title Field"
+msgstr "Titolo Campo"
+
+#: core/theme-options/include/contact_add.php:141
+msgid "Insert the title of field."
+msgstr "Inserisci il titolo del campo."
+
+#: core/theme-options/include/contact_add.php:151
+msgid "Optional: the identification name of this field, that you can insert into body email configuration."
+msgstr "Opzionale: il nome di identificazione di questo campo che puoi inserire dentro il corpo della mail."
+
+#: core/theme-options/include/contact_add.php:157
+msgid "Description"
+msgstr "Descrizione"
+
+#: core/theme-options/include/contact_add.php:161
+msgid "Small description, showed near name title."
+msgstr "Piccola descrizione che sarà mostrata accanto al titolo del nome."
+
+#: core/theme-options/include/contact_add.php:167
+msgid "Type field"
+msgstr "Tipo di Campo"
+
+#: core/theme-options/include/contact_add.php:173
+#, fuzzy
+msgid "Select the type of this field."
+msgstr "Seleziona il tipo di Footer che desideri utilizzare per questo tema"
+
+#: core/theme-options/include/contact_add.php:179
+msgid "Add options"
+msgstr "Aggiungi Opzioni"
+
+#: core/theme-options/include/contact_add.php:182
+msgid "Add option"
+msgstr "Aggiungi opzione"
+
+#: core/theme-options/include/contact_add.php:192
+#: core/theme-options/include/contact_add.php:199
+msgid "Selected"
+msgstr "Selezionato"
+
+#: core/theme-options/include/contact_add.php:194
+#: core/theme-options/include/contact_add.php:201
+msgid "Delete option"
+msgstr "Elimina Opzione"
+
+#: core/theme-options/include/contact_add.php:209
+msgid "Checked"
+msgstr "Selezionato"
+
+#: core/theme-options/include/contact_add.php:214
+msgid "Select this if you want this field already checked."
+msgstr "Seleziona se vuoi che questo campo venga mostrato già checkato."
+
+#: core/theme-options/include/contact_add.php:221
+msgid "Label for Checkbox"
+msgstr "Label per Checkbox"
+
+#: core/theme-options/include/contact_add.php:225
+msgid "Insert the label message for checkbox."
+msgstr "Inserisci un'etichetta per il checkbox."
+
+#: core/theme-options/include/contact_add.php:231
+msgid "Message Error"
+msgstr "Errore"
+
+#: core/theme-options/include/contact_add.php:235
+msgid "Insert the error message for validation."
+msgstr "Inserisci il messaggio di errore da mostrare per la validazione."
+
+#: core/theme-options/include/contact_add.php:246
+msgid "Select this if it must be required."
+msgstr "Seleziona per rendere questo campo obbligatorio."
+
+#: core/theme-options/include/contact_add.php:258
+msgid "Select this if it must be a valid email."
+msgstr "Seleziona per rendere questo  campo un valido indirizzo email."
+
+#: core/theme-options/include/contact_add.php:265
+msgid "Reply To"
+msgstr "Rispondi a"
+
+#: core/theme-options/include/contact_add.php:270
+msgid "Select this if it's the email where you can reply."
+msgstr "Seleziona se questa è un'indirizzo email alla quale poter rispondere."
+
+#: core/theme-options/include/contact_add.php:277
+msgid "Class"
+msgstr "Class"
+
+#: core/theme-options/include/contact_add.php:281
+msgid "Insert an additional class for more personalization. (you can insert more class, separeted by space)"
+msgstr "Inserisci delle classi addizionali per una migliore personalizzazione (puoi inserire più classi, separate da uno spazio)."
+
+#: core/theme-options/include/contact_add.php:292
+msgid "Save"
+msgstr "Salva"
+
+#: core/theme-options/install/install.php:94
+#, php-format
+msgid "Truncated %s table"
+msgstr "Elimina la tabella %s"
+
+#: core/theme-options/install/install.php:111
+#, php-format
+msgid "Insert new values into %s table"
+msgstr "Inserisci nuovo valore dentro la tabella %s"
+
+#: core/theme-options/install/install.php:113
+#, php-format
+msgid "Error during insert new values (IDs: %s), in %s table"
+msgstr "Errore durante l'inserimento di un nuovo valore (ID: %s), nella tabella %s"
+
+#: core/theme-options/install/install.php:132
+#, php-format
+msgid "Deleted value from %s table"
+msgstr "Valore eliminato dalla tabella %s"
+
+#: core/theme-options/install/install.php:134
+#, php-format
+msgid "Error during deleting from %s table (SQL: %s)"
+msgstr "Errore durante l'eliminazione della tabella %s (SQL: %s)"
+
+#: core/theme-options/install/install.php:152
+#, php-format
+msgid "Insert new values, into %s table"
+msgstr "Inserisci nuovo valore dentro la tabella %s"
+
+#: core/theme-options/install/install.php:154
+#, php-format
+msgid "Error during insert new values (IDs: %s), into %s table"
+msgstr "Errore durante l'inserimento di un nuovo valore (ID: %s), nella tabella %s"
+
+#: core/theme-options/install/install_panel.php:10
+msgid "Import/Export Theme Data"
+msgstr "Importa/Esporta Dati Tema"
+
+#: core/theme-options/install/install_panel.php:21
+msgid "Import Theme Data"
+msgstr "Importa Dati Tema"
+
+#: core/theme-options/install/install_panel.php:26
+msgid "Insert here the file that you have exported by another installation."
+msgstr "Inserisci qui il file che hai esportato da un'altra installazione."
+
+#: core/theme-options/install/install_panel.php:28
+msgid "Make a backup of all installation before import, because it will remove all posts and options of theme, so that you can restore if there are problems after import."
+msgstr "Fai un backup di tutta l'installazione prima di importare, perchè eliminerà tutti i post e le opzioni del tema, così da poter ripristinare l'installazione in caso di problemi durante l'importazione."
+
+#: core/theme-options/install/install_panel.php:39
+msgid "Click here to download a file with all export, that you will use to import to another installation."
+msgstr "Clicca qui per scaricare unfile con tutta l'installazione, che potrai utilizzare per impostarla su un'altra installazione, trmaite questo stesso pannello."
+
+#: core/theme-options/options/panelimport-options.php:7
+#, fuzzy
+msgid "Panel import configuration"
+msgstr "Configurazione Pannello"
+
+#: inc/colors.php:17
+#: inc/fonts.php:13
+msgid "TITLE OF SECTION"
+msgstr "TITOLO DELLA SEZIONE"
+
+#: inc/colors.php:24
+#: inc/fonts.php:20
+msgid "Body content background color"
+msgstr "Colore di sfondo per il corpo della pagina."
+
+#: inc/colors.php:25
+#: inc/fonts.php:21
+msgid "Select the background color of the main text content."
+msgstr "Seleziona un colore di sfondo da assegnare al corpo della pagina."
+
+#: inc/config-theme.php:37
+#: inc/theme-options/general-options.php:10
+msgid "General"
+msgstr "Generale"
+
+#: inc/config-theme.php:38
+msgid "Colors"
+msgstr "Colori"
+
+#: inc/config-theme.php:39
+#: inc/theme-options/typography-options.php:10
+msgid "Typography"
+msgstr "Tipografia"
+
+#: inc/config-theme.php:40
+msgid "Sliders"
+msgstr "Sliders"
+
+#: inc/config-theme.php:41
+msgid "Sidebars"
+msgstr "Sidebars"
+
+#: inc/config-theme.php:42
+#, fuzzy
+msgid "Contact Forms"
+msgstr "Contatti"
+
+#: inc/config-theme.php:112
+#, php-format
+msgid "<p>New version <strong>%s</strong> available of <strong>Beauty theme</strong>. You will have new email, on your email address, where you can download the new version!</p>"
+msgstr "<p>Nuova versione <strong>%s</strong> disponibile di <strong>%s</strong>. You will have new email, on your email address, where you can download the new version!</p>"
+
+#: inc/functions-theme.php:36
+msgid "Navigation"
+msgstr "Navigazione"
+
+#: inc/functions-theme.php:44
+msgid "The sidebar showed on page with Blog template"
+msgstr ""
+
+#: inc/functions-theme.php:45
+msgid "The row below home content."
+msgstr ""
+
+#: inc/metaboxes.php:25
+msgid "Options of page"
+msgstr "Opzioni della Pagina"
+
+#: inc/metaboxes.php:26
+msgid "Slogan Page"
+msgstr "Slogan della Pagina"
+
+#: inc/metaboxes.php:27
+msgid "Remove WpAutoP filter."
+msgstr "Rimuovi il filtro WpAuto."
+
+#: inc/metaboxes.php:28
+msgid "Extra Content"
+msgstr "Contenuto Extra"
+
+#: inc/metaboxes.php:31
+msgid "Video URL thumb"
+msgstr "Video URL thumb"
+
+#: inc/metaboxes.php:111
+msgid "You can configure this page as you want, setting these optional options."
+msgstr "Puoi configurare questa pagina come desideri configurando queste opzioni."
+
+#: inc/metaboxes.php:118
+#: inc/metaboxes.php:228
+msgid "Slogan page"
+msgstr "Slogan della Pagina"
+
+#: inc/metaboxes.php:121
+msgid "Insert the slogan showed on top of this page/post."
+msgstr "Inserisci lo sloganda mostrare all'inizio di questa pagina/post."
+
+#: inc/metaboxes.php:127
+msgid "Show Title"
+msgstr "Mostra Titolo"
+
+#: inc/metaboxes.php:133
+#, fuzzy
+msgid "Layout Page"
+msgstr "Pagina Blog"
+
+#: inc/metaboxes.php:145
+msgid "Select layout of page"
+msgstr "Seleziona il layout di questa pagina"
+
+#: inc/metaboxes.php:169
+msgid "Select sidebar of page"
+msgstr "Seleziona la sidebar della pagina"
+
+#: inc/metaboxes.php:189
+msgid "Remove 'wpautop' filter to main content."
+msgstr "Rimuovi il filtro 'wpautop' dal contenuto principale."
+
+#: inc/metaboxes.php:205
+msgid "If you want, you can add some text to show above the footer, under content and sidebar."
+msgstr "Se vuoi puoi aggiungere un contenuto testuale da mostrare prima del footer, sotto il contenuto della pagina e della sidebar."
+
+#: inc/post_types.php:51
+msgid "Testimonals"
+msgstr "Testimonial"
+
+#: inc/post_types.php:54
+msgid "Testimonial"
+msgstr "Testimonial"
+
+#: inc/post_types.php:54
+msgid "Testimonials"
+msgstr "Testimonial"
+
+#: inc/post_types.php:66
+#: inc/post_types.php:69
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: inc/post_types.php:69
+msgid "Work"
+msgstr "Lavori"
+
+#: inc/post_types.php:69
+msgid "Works"
+msgstr "Lavori"
+
+#: inc/post_types.php:82
+#: inc/post_types.php:85
+msgid "Gallery"
+msgstr "Galleria"
+
+#: inc/post_types.php:85
+#: inc/post_types.php:205
+#: inc/post_types.php:272
+msgid "Photo"
+msgstr "Foto"
+
+#: inc/post_types.php:85
+msgid "Photos"
+msgstr "Foto"
+
+#: inc/post_types.php:97
+#: inc/post_types.php:100
+msgid "Team"
+msgstr "Team"
+
+#: inc/post_types.php:100
+msgid "Worker"
+msgstr "Worker"
+
+#: inc/post_types.php:100
+msgid "Workers"
+msgstr "Workers"
+
+#: inc/post_types.php:122
+#: inc/post_types.php:138
+msgid "Category"
+msgstr "Categorie"
+
+#: inc/post_types.php:130
+#: inc/post_types.php:207
+msgid "Profile"
+msgstr "Profilo"
+
+#: inc/post_types.php:130
+#, fuzzy
+msgid "Profiles"
+msgstr "Profilo"
+
+#: inc/post_types.php:161
+msgid "Story"
+msgstr "Storia"
+
+#: inc/post_types.php:162
+msgid "Web Site"
+msgstr "Sito Web"
+
+#: inc/post_types.php:236
+msgid "Portfolio Title"
+msgstr "Titolo Portfolio"
+
+#: inc/post_types.php:239
+msgid "Category Project"
+msgstr "Categorie Progetto"
+
+#: inc/post_types.php:271
+msgid "Photo Title"
+msgstr "Titolo Foto"
+
+#: inc/post_types.php:273
+msgid "Category Photo"
+msgstr "Categorie Foto"
+
+#: inc/post_types.php:331
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: inc/post_types.php:332
+#: inc/post_types.php:359
+#, php-format
+msgid "Add New %s"
+msgstr "Aggiungi Nuovo %s"
+
+#: inc/post_types.php:333
+#, php-format
+msgid "Edit %s"
+msgstr "Modifica %s"
+
+#: inc/post_types.php:334
+#, php-format
+msgid "New %s"
+msgstr "Nuovo %s"
+
+#: inc/post_types.php:335
+#, php-format
+msgid "View %s"
+msgstr "Visualizza %s"
+
+#: inc/post_types.php:336
+#: inc/post_types.php:353
+#, php-format
+msgid "Search %s"
+msgstr "Cerca %s"
+
+#: inc/post_types.php:337
+#, php-format
+msgid "No %s found"
+msgstr "Non %s trovato"
+
+#: inc/post_types.php:338
+#, php-format
+msgid "No %s found in Trash"
+msgstr "Non %s trovato nel cestino"
+
+#: inc/post_types.php:354
+#, php-format
+msgid "All %s"
+msgstr "Tutto %s"
+
+#: inc/post_types.php:355
+#, php-format
+msgid "Parent %s"
+msgstr "%s Padre"
+
+#: inc/post_types.php:356
+#, php-format
+msgid "Parent %s:"
+msgstr "%s Padre:"
+
+#: inc/post_types.php:357
+msgid "Edit %"
+msgstr "Modifica %s"
+
+#: inc/post_types.php:358
+#, php-format
+msgid "Update %s"
+msgstr "Aggiorna %s"
+
+#: inc/post_types.php:360
+#, php-format
+msgid "New %s Name"
+msgstr "Nuovo %s Nome"
+
+#: inc/theme-options/colors-options.php:7
+msgid "Colors Settings"
+msgstr "Configurazione dei Colori"
+
+#: inc/theme-options/contact-options.php:9
+msgid "Contact Page Customize"
+msgstr "Personalizza Pagina Contatti"
+
+#: inc/theme-options/contact-options.php:14
+msgid "Create new"
+msgstr "Crea nuovo"
+
+#: inc/theme-options/contact-options.php:19
+msgid "New contact form."
+msgstr "Nuovo modulo contatti."
+
+#: inc/theme-options/contact-options.php:20
+msgid "Add new empty contact form, that you can add into pages or posts. After adding new form, select it on option below and click on \"Configure\" button to configure it."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:23
+msgid "Add Form"
+msgstr "Aggiungi Modulo"
+
+#: inc/theme-options/contact-options.php:29
+msgid "Configure contact form."
+msgstr "Configura modulo contatti."
+
+#: inc/theme-options/contact-options.php:30
+msgid "Choose a contact form and save, to configure below your form choosen."
+msgstr ""
+
+#: inc/theme-options/contact-options.php:33
+#: inc/theme-options/sliders-options.php:37
+msgid "Configure"
+msgstr "Configura"
+
+#: inc/theme-options/contact-options.php:37
+msgid "Shortcode of form"
+msgstr "Shortcode del form"
+
+#: inc/theme-options/contact-options.php:38
+msgid "Copy this and paste into editor of pages or posts. This is the shortcode of contact form choosen on option above."
+msgstr "Copia e incolla dentro l'editor di una pagina o di un post. Questo è il codice dello Shortcode scelto nell'opzione sopra."
+
+#: inc/theme-options/contact-options.php:42
+msgid "Delete forms"
+msgstr "Elimina Modulo"
+
+#: inc/theme-options/contact-options.php:43
+msgid "Delete the forms that you have already created."
+msgstr "Elimina i moduli che hai già creato."
+
+#: inc/theme-options/contact-options.php:48
+msgid "Add example form."
+msgstr "Aggiungi un modulo d'esempio."
+
+#: inc/theme-options/contact-options.php:49
+msgid "Add a simple example form, specifing the name."
+msgstr "Aggiungi un modulo contatti di esempio specificando il nome."
+
+#: inc/theme-options/contact-options.php:53
+msgid "Create Form"
+msgstr "Crea Modulo"
+
+#: inc/theme-options/contact-options.php:59
+msgid "Contact Form Configuration for"
+msgstr "Configurazione Modulo Contatti per"
+
+#: inc/theme-options/contact-options.php:63
+msgid "To"
+msgstr "A"
+
+#: inc/theme-options/contact-options.php:64
+#, fuzzy
+msgid "Define the emails witch send the email written by the user. If they are more then one, you can write theme separated by a comma."
+msgstr "Indica un indirizzo email in cui ricevere le email inviate dagli utenti."
+
+#: inc/theme-options/contact-options.php:69
+msgid "From Email"
+msgstr "From E-mail"
+
+#: inc/theme-options/contact-options.php:70
+msgid "Define from what email send the message."
+msgstr "Indica da quale email verranno inviati i messaggi."
+
+#: inc/theme-options/contact-options.php:75
+msgid "From Name"
+msgstr "From Name"
+
+#: inc/theme-options/contact-options.php:76
+#, fuzzy
+msgid "Define the name of email that send the message."
+msgstr "Indica un indirizzo email in cui ricevere le email inviate dagli utenti."
+
+#: inc/theme-options/contact-options.php:81
+msgid "Subject"
+msgstr "Oggetto"
+
+#: inc/theme-options/contact-options.php:82
+msgid "Define the subject of the email sent to you."
+msgstr "Indica l'oggetto da assegnare alle email che saranno inviate mediante il modulo."
+
+#: inc/theme-options/contact-options.php:87
+msgid "Body"
+msgstr "Messaggio"
+
+#: inc/theme-options/contact-options.php:88
+#, fuzzy
+msgid "Configure the body email that arrives to you. You can add some shortcode, to add some value insert by user on frontend module. The shortcodes are composed with \"data_name\" that you have insert on each field, on below table, like: %data_name%.<br /><em>HTML is allowed.</em>"
+msgstr "Configura il formato del messaggio email che ti sarà inviato ogni volta che un utente ti contatta. Puoi aggiungere alcuni shortcode, gli shortcode disponibili sono: <br/>- <strong>%name%</strong>: il nome dell'utente;<br />- <strong>%from%</strong>:  l'email dell'utente che ti ha contattato;<br />- <strong>%message%</strong>: il messaggio scritto dall'utente<br /><em>L'HTML è permesso.</em>"
+
+#: inc/theme-options/contact-options.php:91
+#, fuzzy
+msgid ""
+"%message%\\n"
+"\\n"
+"<small><i>This email is been sent by %name% (email. %email%).</i></small>"
+msgstr ""
+"%message%\n"
+"\n"
+"<small><i>Questa mail è stata inviata da %name% (email. %email%).</i></small>"
+
+#: inc/theme-options/contact-options.php:93
+msgid "Label Submit Button"
+msgstr "Testo da inserire per il Pulsante di Invio"
+
+#: inc/theme-options/contact-options.php:94
+#, fuzzy
+msgid "Define the label of submit button."
+msgstr "Indica il testo da mostrare all'interno del pulsante d'invio."
+
+#: inc/theme-options/contact-options.php:99
+msgid "Alignment Submit Button"
+msgstr "Allineamento Pulsante di Invio"
+
+#: inc/theme-options/contact-options.php:100
+#, fuzzy
+msgid "Set the alignment of submit button."
+msgstr "Indica il testo da mostrare all'interno del pulsante d'invio."
+
+#: inc/theme-options/contact-options.php:110
+msgid "Message Success"
+msgstr "Messaggio inviato con successo"
+
+#: inc/theme-options/contact-options.php:111
+#, fuzzy
+msgid "Define the message for success sending."
+msgstr "Indica il messaggio da mostrare dopo che l'email viene spedita correttamente."
+
+#: inc/theme-options/contact-options.php:117
+#, fuzzy
+msgid "Define the message when there is an error on send of email."
+msgstr "Indica il messaggio da mostrare quando si verifica un errore nell'invio della mail."
+
+#: inc/theme-options/contact-options.php:126
+msgid "Customize Contact module"
+msgstr "Personalizza il modulo contatti"
+
+#: inc/theme-options/general-options.php:7
+msgid "General Settings"
+msgstr "Configurazione Generale"
+
+#: inc/theme-options/general-options.php:14
+#: inc/theme-options/general-options.php:50
+msgid "Logo URL"
+msgstr "URL Logo"
+
+#: inc/theme-options/general-options.php:15
+#: inc/theme-options/general-options.php:51
+msgid "Enter the URL to your logo image"
+msgstr "Inserisci l'URL dell'immagine del tuo logo"
+
+#: inc/theme-options/general-options.php:20
+msgid "Custom Favicon"
+msgstr "Favicon Personalizzata"
+
+#: inc/theme-options/general-options.php:21
+msgid "A favicon is a 16x16 pixel icon that represents your site; paste the URL to a .ico image that you want to use as the image"
+msgstr "Una favicon è un'icona di 16x16 pixel che rappresenta il tuo sito; inserisci l'URL ad una immagine .ico che vuoi usare come Favicon"
+
+#: inc/theme-options/general-options.php:27
+msgid "Custom Style"
+msgstr "Stile Personalizzato"
+
+#: inc/theme-options/general-options.php:28
+msgid "You can write here your custom css, that will replace the default css."
+msgstr ""
+
+#: inc/theme-options/general-options.php:40
+#: inc/theme-options/sliders-options.php:26
+#, fuzzy
+msgid "Header"
+msgstr "Heart"
+
+#: inc/theme-options/general-options.php:44
+#, fuzzy
+msgid "Active Logo Image"
+msgstr "Immagine Grande"
+
+#: inc/theme-options/general-options.php:45
+msgid "Set if you want to replace the \"Title\" and \"description\" options of header, with a logo image."
+msgstr ""
+
+#: inc/theme-options/general-options.php:57
+msgid "Logo Width"
+msgstr "Larghezza Logo"
+
+#: inc/theme-options/general-options.php:58
+msgid "Enter the width of logo, expressed in pixel. (Leave empty for default)"
+msgstr ""
+
+#: inc/theme-options/general-options.php:63
+msgid "Logo Height"
+msgstr "Altezza Logo"
+
+#: inc/theme-options/general-options.php:64
+msgid "Enter the height of logo, expressed in pixel. (Leave empty for default)"
+msgstr ""
+
+#: inc/theme-options/general-options.php:76
+msgid "portfolio"
+msgstr "portfolio"
+
+#: inc/theme-options/general-options.php:80
+msgid "portfolio Type"
+msgstr "Tipo di Portfolio"
+
+#: inc/theme-options/general-options.php:81
+msgid "Say the layout for your portfolio page."
+msgstr "Scegli il layout da utilizzare per la tua pagina portfolio"
+
+#: inc/theme-options/general-options.php:84
+msgid "3 Columns"
+msgstr "3 Colonne"
+
+#: inc/theme-options/general-options.php:84
+msgid "With Slider"
+msgstr "Con Slider"
+
+#: inc/theme-options/general-options.php:87
+#: inc/theme-options/sliders-options.php:80
+msgid "More text"
+msgstr "Testo More"
+
+#: inc/theme-options/general-options.php:88
+msgid "Define what show for more link."
+msgstr ""
+
+#: inc/theme-options/general-options.php:91
+msgid "read more &raquo;"
+msgstr "continua a leggere &raquo;"
+
+#: inc/theme-options/general-options.php:94
+msgid "Select how many items you want to show."
+msgstr "Seleziona il numero di oggetti da mostrare."
+
+#: inc/theme-options/general-options.php:101
+msgid "Lightbox Skin"
+msgstr "Skin Lightbox"
+
+#: inc/theme-options/general-options.php:102
+msgid "Specific what skin you want for videos and images lightbox."
+msgstr "Scegli una skin da utilizzare per mostrare video e immagini con effetto lightbox."
+
+#: inc/theme-options/general-options.php:122
+msgid "Blog Settings"
+msgstr "Configurazione Blog"
+
+#: inc/theme-options/general-options.php:127
+msgid "Select how many items you want to show on Blog Page"
+msgstr "Seleziona il numero di articoli che vuoi mostrare sulla Pagina Blog"
+
+#: inc/theme-options/general-options.php:134
+msgid "Exclude categories"
+msgstr "Escludi Categorie"
+
+#: inc/theme-options/general-options.php:135
+msgid "Select witch categories you want exlude from blog."
+msgstr "Seleziona le Categorie che vuoi escludere dalla visualizzazione sul Blog."
+
+#: inc/theme-options/general-options.php:139
+msgid "Blog Page"
+msgstr "Pagina Blog"
+
+#: inc/theme-options/general-options.php:139
+msgid "List cat. sidebar"
+msgstr "Lista Categorie sidebar"
+
+#: inc/theme-options/general-options.php:142
+msgid "Featured Images Alignment"
+msgstr "Allineamento Immagine Principale"
+
+#: inc/theme-options/general-options.php:143
+msgid "Specific the featured images alignment"
+msgstr "Specifica l'allinemaneto che desideri assegnare all'immagina principale del post"
+
+#: inc/theme-options/general-options.php:153
+msgid "Featured Images Size"
+msgstr "Dimensione Immagine Principale"
+
+#: inc/theme-options/general-options.php:154
+msgid "Specific the featured images size"
+msgstr "Specifica la dimensione dell'immagine principale"
+
+#: inc/theme-options/general-options.php:166
+msgid "Featured Images Width"
+msgstr "Larghezza Immagine Principale"
+
+#: inc/theme-options/general-options.php:167
+msgid "Specific the featured images width, <strong>if you have selected custom size on option above.</strong>"
+msgstr "Indica la larghezza da assegnare all'immagine principale del post, nel caso avessi scelto <strong>dimensioni personalizzate</strong> nell'opzione precedente."
+
+#: inc/theme-options/general-options.php:172
+msgid "Featured Images Height"
+msgstr "Altezza Immagine Principale"
+
+#: inc/theme-options/general-options.php:173
+msgid "Specific the featured images height, <strong>if you have selected custom size on option above.</strong>"
+msgstr "Indica l'altezza da assegnare all'immagine principale del post nel caso in cui avessi scelto <strong>dimensioni personalizzate</strong> nell'opzione precedente."
+
+#: inc/theme-options/general-options.php:185
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/theme-options/general-options.php:189
+msgid "Footer Type"
+msgstr "Tipo di Footer"
+
+#: inc/theme-options/general-options.php:190
+msgid "Select the footer type for the theme"
+msgstr "Seleziona il tipo di Footer che desideri utilizzare per questo tema"
+
+#: inc/theme-options/general-options.php:194
+msgid "Two Columns Footer"
+msgstr "Footer a due colonne"
+
+#: inc/theme-options/general-options.php:195
+msgid "Centered Footer"
+msgstr "Footer Centrato"
+
+#: inc/theme-options/general-options.php:199
+msgid "Footer centered text"
+msgstr "Testo Centrato nel Footer"
+
+#: inc/theme-options/general-options.php:200
+msgid "Enter text used in <strong>centered footer</strong>. It can be HTML."
+msgstr "Inserisci il testo da mostrare sul Footer Centrato (es. copyright, credits, ecc). L'HTML è permesso."
+
+#: inc/theme-options/general-options.php:205
+msgid "Footer copyright text Left"
+msgstr "Testo Copyright a Sinistra"
+
+#: inc/theme-options/general-options.php:206
+#, fuzzy
+msgid "Enter text used in the left side of the footer. It can be HTML. <strong>NB: not figured on \"centered footer\"</strong>"
+msgstr "Inserisci il testo da mostrare sul lato sinistro del Footer (es. copyright, credits, ecc). L'HTML è permesso. <strong>NB. non sarà mostrato nel 'footer centrato'"
+
+#: inc/theme-options/general-options.php:211
+#, fuzzy
+msgid "Footer copyright text Right"
+msgstr "Testo Copyright"
+
+#: inc/theme-options/general-options.php:212
+#, fuzzy
+msgid "Enter text used in the right side of the footer. It can be HTML. <strong>NB: not figured on \"centered footer\"</strong>"
+msgstr "Inserisci il testo da mostrare sul Footer (es. copyright, credits, ecc). L'HTML è permesso."
+
+#: inc/theme-options/general-options.php:217
+msgid "Google Analytics Code"
+msgstr "Google Analytics"
+
+#: inc/theme-options/general-options.php:218
+msgid "You can paste your Google Analytics or other tracking code in this box. This will be automatically added to the footer."
+msgstr "Inserisci il tuo codice di Google Analytics o altri codici di monitoraggio per tenere traccia delle visite al suo sito. Questo sarà automaticamente aggiunto sul footer"
+
+#: inc/theme-options/sidebars-options.php:7
+msgid "Sidebar Manager"
+msgstr "Gestione Sidebar"
+
+#: inc/theme-options/sidebars-options.php:10
+msgid "Create Sidebar"
+msgstr "Crea Sidebar"
+
+#: inc/theme-options/sidebars-options.php:15
+msgid "Sidebar name"
+msgstr "Nome Sidebar"
+
+#: inc/theme-options/sidebars-options.php:16
+#, fuzzy
+msgid "Add a new sidebar.<br/><b>NB:</b> by default, there are 1 sidebar have already created: <br />- \"<strong>Blog Sidebar</strong>\", for Blog Template; <br />- \"<strong>Home Colourful Section</strong>\"; <br />- \"<strong>Home Sidebar</strong>\"; <br />- \"<strong>Footer Row 1/2/3</strong>\", for Footer."
+msgstr "Aggiungi nuova sidebar.<br/><b>NB:</b> di default, ci sono 4 sidebar già create: <br />- '<strong>Blog Sidebar</strong>' per il template del Blog; <br/>- '<strong>Righe Footer 1/2/3</strong>' per il Footer."
+
+#: inc/theme-options/sidebars-options.php:29
+msgid "Sidebar created"
+msgstr "Sidebar creata"
+
+#: inc/theme-options/sidebars-options.php:36
+msgid "List sidebar created"
+msgstr "Lista Sidebar create"
+
+#: inc/theme-options/sidebars-options.php:37
+msgid "Table with sidebar that you have created."
+msgstr "Tabella con le sidebar che hai creato."
+
+#: inc/theme-options/sliders-options.php:15
+msgid "Sliders Manager"
+msgstr "Gestione Slider"
+
+#: inc/theme-options/sliders-options.php:20
+#, fuzzy
+msgid "Select slider to show or configure"
+msgstr "Seleziona la sidebar della pagina"
+
+#: inc/theme-options/sliders-options.php:25
+msgid "Default Header image type"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:26
+#, fuzzy
+msgid "Select the default header type for homepage pages."
+msgstr "Seleziona il tipo di Footer che desideri utilizzare per questo tema"
+
+#: inc/theme-options/sliders-options.php:26
+#, php-format
+msgid "for \"Fixed Image\", you can configure it on %s -> %s."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:26
+msgid "Appearance"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:30
+msgid "fixed-image"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:32
+msgid "Configure slider."
+msgstr "Configura Slider"
+
+#: inc/theme-options/sliders-options.php:34
+msgid "Choose a slider and save, to configure below your slider choosen."
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:44
+msgid "Slider Settings"
+msgstr "Configurazione Slider"
+
+#: inc/theme-options/sliders-options.php:48
+msgid "Effect"
+msgstr "effetto"
+
+#: inc/theme-options/sliders-options.php:49
+msgid "Select the effect you want for slides transiction."
+msgstr "Seleziona il tipo di effetto che vuoi avere tra le transizioni delle slide."
+
+#: inc/theme-options/sliders-options.php:55
+msgid "Easing"
+msgstr ""
+
+#: inc/theme-options/sliders-options.php:56
+msgid "Select the easing for effect transition."
+msgstr "Seleziona il tipo di effetto che vuoi avere tra le transizioni delle slide."
+
+#: inc/theme-options/sliders-options.php:62
+msgid "Speed (s)"
+msgstr "Velocità (s)"
+
+#: inc/theme-options/sliders-options.php:63
+msgid "Select the speed of transiction between slides, expressed in seconds."
+msgstr "Seleziona la velocità della transizione tra gli slide, expressa in secondi."
+
+#: inc/theme-options/sliders-options.php:71
+msgid "Timeout (s)"
+msgstr "Attesa (s)"
+
+#: inc/theme-options/sliders-options.php:72
+msgid "Select the delay between slides, expressed in seconds."
+msgstr "Seleziona la pausa tra le slide, expressa in secondi."
+
+#: inc/theme-options/sliders-options.php:81
+#, fuzzy
+msgid "Write what you want to show on more link, if you have selected \"YES\" on option above."
+msgstr "Scrivi ciò che vuoi mostrare nel link 'More', se hai già selezionato 'SI' nell'opzione sopra."
+
+#: inc/theme-options/sliders-options.php:84
+msgid "Read more..."
+msgstr "Leggi altro..."
+
+#: inc/theme-options/sliders-options.php:90
+msgid "Slides"
+msgstr "Slides"
+
+#: inc/theme-options/typography-options.php:7
+msgid "Typography Settings"
+msgstr "Configurazione Tipografia"
+
+#: inc/theme-options/typography-options.php:15
+msgid "Font for main titles"
+msgstr "Font per i titoli principali"
+
+#: inc/theme-options/typography-options.php:16
+msgid "Select the cufon font for the mains texts. NB: the following font size settings must be configured after change this font setting."
+msgstr ""
+
+#: inc/widgets/address_info.php:8
+msgid "Widget with a simple address information."
+msgstr "Widget che permette di inserire"
+
+#: inc/widgets/address_info.php:13
+msgid "Address Info"
+msgstr "Informazioni sull'indirizzo"
+
+#: inc/widgets/address_info.php:22
+msgid "Find Us"
+msgstr "Siamo qui"
+
+#: inc/widgets/address_info.php:46
+msgid "Address"
+msgstr "Indirizzo"
+
+#: inc/widgets/address_info.php:52
+msgid "Zip Code"
+msgstr "Codice Postale"
+
+#: inc/widgets/address_info.php:58
+msgid "State"
+msgstr "Stato"
+
+#: inc/widgets/address_info.php:64
+msgid "City"
+msgstr "Città"
+
+#: inc/widgets/contact_info.php:8
+msgid "Widget with a simple contact information."
+msgstr "Widget che permette di inserire delle informazioni di contatto."
+
+#: inc/widgets/contact_info.php:13
+msgid "Contact Info"
+msgstr "Info Contatti"
+
+#: inc/widgets/contact_info.php:22
+msgid "Contacts"
+msgstr "Contatti"
+
+#: inc/widgets/contact_info.php:37
+msgid "Phone"
+msgstr "Telefono"
+
+#: inc/widgets/contact_info.php:43
+msgid "Fax"
+msgstr "Fax"
+
+#: inc/widgets/last_news.php:9
+msgid "The last news."
+msgstr "Le ultime news."
+
+#: inc/widgets/last_news.php:63
+msgid "by"
+msgstr "di"
+
+#: inc/widgets/last_news.php:115
+msgid "Show date"
+msgstr "Mostra data"
+
+#: inc/widgets/last_news.php:124
+msgid "Show author"
+msgstr "Mostra Autore"
+
+#: inc/widgets/testimonials.php:9
+msgid "Add a slider testimonial on your widget which link a category to show the contents."
+msgstr "Aggiunge uno slider Testimonial sulla tua sidebar e lo collega ad una categoria per mostrarne il contenuto."
+
+#~ msgid "Sidebar for template \"Home\""
+#~ msgstr "Sidebar per il template \"Home\""
+
+#~ msgid "Sidebar for template \"About\""
+#~ msgstr "Sidebar per il template \"About\""
+
+#~ msgid "Sidebar for template \"Contact\""
+#~ msgstr "Sidebar per il template \"Contatti\""
+
+#~ msgid "%s RSS Feed"
+#~ msgstr "%s Feed RSS "
+
+#~ msgid "%s Atom Feed"
+#~ msgstr "%s Atom Feed"
+
+#~ msgid "Contact Customize"
+#~ msgstr "Personalizzazione Modulo Contatti"
+
+#~ msgid "Premium"
+#~ msgstr "Premium"
+
+#~ msgid "News"
+#~ msgstr "News"
+
+#~ msgid "Show the title of this page."
+#~ msgstr "Mostra il titolo di questa pagina."
+
+#~ msgid "To easily use the "
+#~ msgstr "Facile da usare"
+
+#, fuzzy
+#~ msgid "Color Scheme"
+#~ msgstr "Schema Colori"
+
+#~ msgid "Colour Choose"
+#~ msgstr "Scegli Colore"
+
+#~ msgid "Select the colour you want, of all common elements."
+#~ msgstr "Seleziona il colore di base da assegnare al tema."
+
+#~ msgid "Various"
+#~ msgstr "Varie"
+
+#~ msgid "Text color"
+#~ msgstr "Colore Testo"
+
+#, fuzzy
+#~ msgid "Select the color of general text."
+#~ msgstr "Seleziona il colore generale per il testo."
+
+#~ msgid "Links color"
+#~ msgstr "Colore Link"
+
+#, fuzzy
+#~ msgid "Select the color of all links."
+#~ msgstr "Seleziona il colore da assegnare a tutti i link del tema."
+
+#~ msgid "Links hover color"
+#~ msgstr "Colore Link Hover"
+
+#~ msgid "Select the color of all links, on hover."
+#~ msgstr "Seleziona il colore da assegnare a tutti i link all'hover."
+
+#~ msgid "Date Format"
+#~ msgstr "Formato Data"
+
+#~ msgid ""
+#~ "Set the general date format of theme. Read <a href=\"http://codex."
+#~ "wordpress.org/Formatting_Date_and_Time\">Documentation on date "
+#~ "formatting</a>"
+#~ msgstr ""
+#~ "Configura il formato generale della data. Leggi la <a href=\"http://codex."
+#~ "wordpress.org/Formatting_Date_and_Time\">Documentazione sulla "
+#~ "formattazione della data</a>."
+
+#~ msgid "Addtionale JS scripts"
+#~ msgstr "Js aggiuntivo"
+
+#~ msgid "here your script"
+#~ msgstr "qui il tuo script"
+
+#~ msgid "Slider type"
+#~ msgstr "Scegli il tipo di Slider"
+
+#~ msgid "Select the slider type that you want on home page."
+#~ msgstr "Seleziona il tipo di Slider da utilizzare in Home Page"
+
+#~ msgid "Choose a slider"
+#~ msgstr "Scegli uno Slider"
+
+#~ msgid "Main Typography"
+#~ msgstr "Tipografia Principale"
+
+#~ msgid "Main Text"
+#~ msgstr "Testo Principale"
+
+#~ msgid "Select the size for the main text."
+#~ msgstr "Seleziona la dimensione per il testo principale del tema."
+
+#~ msgid "Head line 1 (h1)"
+#~ msgstr "Titolo 1 (h1)"
+
+#~ msgid "Select the size for headline 1 (h1)."
+#~ msgstr "Seleziona la dimensione da assegnare ai titoli H1."
+
+#~ msgid "Head line 2 (h2)"
+#~ msgstr "Titolo 2 (h2)"
+
+#~ msgid "Select the size for headline 2 (h2)."
+#~ msgstr "Seleziona la dimensione da assegnare ai titoli H2."
+
+#~ msgid "Head line 3 (h3)"
+#~ msgstr "Titolo 3 (h3)"
+
+#~ msgid "Select the size for headline 3 (h3)."
+#~ msgstr "Seleziona la dimensione da assegnare ai titoli H3."
+
+#~ msgid "Head line 4 (h4)"
+#~ msgstr "Titolo 4 (h4)"
+
+#~ msgid "Select the size for headline 4 (h4)."
+#~ msgstr "Seleziona la dimensione da assegnare ai titoli H4."
+
+#~ msgid "Head line 5 (h5)"
+#~ msgstr "Titolo 5 (h5)"
+
+#~ msgid "Select the size for headline 5 (h5)."
+#~ msgstr "Seleziona la dimensione da assegnare ai titoli H5."
+
+#~ msgid "Head line 6 (h6)"
+#~ msgstr "Titolo 6 (h6)"
+
+#~ msgid "Select the size for headline 6 (h6)."
+#~ msgstr "Seleziona la dimensione da assegnare ai titoli H6."
+
+#, fuzzy
+#~ msgid "Navigation Items"
+#~ msgstr "Navigazione"
+
+#~ msgid "Select the size for the navigation items."
+#~ msgstr ""
+#~ "Seleziona la dimensione del font da assegnare ai link della Navigazione "
+#~ "principale."
+
+#~ msgid "Slogan"
+#~ msgstr "Slogan"
+
+#~ msgid "Set the size of slogan."
+#~ msgstr "Seleziona la dimensione per il testo dello slogan."
+
+#~ msgid "Sea"
+#~ msgstr "Sea"
+
+#~ msgid "Flowers"
+#~ msgstr "Flowers"
+
+#~ msgid "Portrait"
+#~ msgstr "Portrait"
+
+#~ msgid "Black & White"
+#~ msgstr "Black & White"
+
+#~ msgid "More Details"
+#~ msgstr "Continua a leggere"
+
+#~ msgid "What's your <span class=\"red-text\">name?</span>"
+#~ msgstr "Qual è il tuo <span class=\"red-text\">nome?</span>"
+
+#, fuzzy
+#~ msgid "pleased to meet you"
+#~ msgstr "è un piacere conoscerti"
+
+#~ msgid "What's your <span class=\"red-text\">e-mail?</span>"
+#~ msgstr "Qual è la tua <span class=\"red-text\">email?</span>"
+
+#~ msgid "I need to give you an answer"
+#~ msgstr "Ho bisogno di darti una risposta"
+
+#~ msgid "How can I <span class=\"red-text\">help</span> you?"
+#~ msgstr "Come ti posso <span class=\"red-text\">aiutare</span>?"
+
+#~ msgid "let me know"
+#~ msgstr "dimmi pure"
+
+#~ msgid "Product"
+#~ msgstr "Prodotto"
+
+#~ msgid "Footer Navigation"
+#~ msgstr "Navigazione Footer"
+
+#~ msgid "Insert correct email"
+#~ msgstr "Inserisci un indirizzo email corretto"
+
+#, fuzzy
+#~ msgid "This field is required"
+#~ msgstr "Questo campo è obbligatorio"
+
+#~ msgid "Your Account"
+#~ msgstr "Il Tuo Account"
+
+#~ msgid "Register"
+#~ msgstr "Registrati"
+
+#~ msgid "Login"
+#~ msgstr "Login"
+
+#~ msgid "Password Lost and Found"
+#~ msgstr "Password persa o trovata"
+
+#~ msgid "Lost password?"
+#~ msgstr "Passowrd dimenticata?"
+
+#~ msgid "View Project"
+#~ msgstr "Mostra Progetto"
+
+#~ msgid "The name and email field are required"
+#~ msgstr "I campi email e nome sono obbligatori"
+
+#~ msgid "jQuery Slider"
+#~ msgstr "Slider jQuery"
+
+#~ msgid "Flash Slider"
+#~ msgstr "Slider Flash"
+
+#~ msgid "Accordion Sliders"
+#~ msgstr "Slider Accordion"
+
+#~ msgid "Faqs"
+#~ msgstr "Faq"
+
+#~ msgid "The post type for the content of accordion sliders"
+#~ msgstr "Il Post Type per gestire il contenuto degli Slider Accordion"
+
+#~ msgid "Question"
+#~ msgstr "Domanda"
+
+#~ msgid "Answer"
+#~ msgstr "Risposta"
+
+#~ msgid "Web Site Testimonial"
+#~ msgstr "Sito Web Testimonial"
+
+#~ msgid "Subtitle slide"
+#~ msgstr "Sottotitolo slide"
+
+#~ msgid "Choose layout sidebar, for different titles style."
+#~ msgstr ""
+#~ "Scegli il layout della sidebar con i differenti stili associati ai titoli."
+
+#~ msgid "Accordion Slider"
+#~ msgstr "Slider Accordion"
+
+#~ msgid "Show slider accordion on page."
+#~ msgstr "Mostra lo slider accordion su questa pagina."
+
+#~ msgid "Select name slider."
+#~ msgstr "Seleziona il nome dello Slider."
+
+#~ msgid "Number of columns"
+#~ msgstr "Numero di colonne"
+
+#~ msgid "Format Layout"
+#~ msgstr "Formato Layout"
+
+#, fuzzy
+#~ msgid "Row deleted correctly!"
+#~ msgstr "Elemento eliminato correttamente"
+
+#, fuzzy
+#~ msgid "Section Text"
+#~ msgstr "Testo Principale"
+
+#~ msgid "A simple section with title and text, with optional icon."
+#~ msgstr "Una semplice sezione con titolo e testo, con icona addizionale."
+
+#~ msgid "Section Newsletter"
+#~ msgstr "Sezione Newsletter"
+
+#~ msgid ""
+#~ "A simple section like 'Section Text', with a form for newsletter "
+#~ "subscriptions."
+#~ msgstr ""
+#~ "Una semplice sezione simile a 'Sezione Testo', con un form per le "
+#~ "sottoscrizioni alle newsletter."
+
+#, fuzzy
+#~ msgid "Last Post Category"
+#~ msgstr "Categorie"
+
+#~ msgid ""
+#~ "A simple section like 'Section Text', with a list of last post from "
+#~ "specific category"
+#~ msgstr ""
+#~ "Una semplice sezione simile a 'Sezione Testo', con una lista di ultimi "
+#~ "post da una specifica categoria."
+
+#~ msgid "Accordion Sliders manager"
+#~ msgstr "Gestione Slider Accordion"
+
+#~ msgid "Create Accordion Slider"
+#~ msgstr "Crea Slider Accordion"
+
+#~ msgid "Slider name"
+#~ msgstr "Nome Slider"
+
+#~ msgid ""
+#~ "Add new accordion slider. Creating this slider, you create new custom "
+#~ "post type automatically, where you can create the contents for this "
+#~ "slider."
+#~ msgstr ""
+#~ "Aggiungi un nuovo Slider Accordion. Creando questo slider crei "
+#~ "automaticamente un nuovo Post Type personalizzato che ti servirà per "
+#~ "gestire i contenuti di questo Slider."
+
+#~ msgid "Accordion sliders created"
+#~ msgstr "Slider Accordion creato"
+
+#~ msgid "List sliders created"
+#~ msgstr "Lista Slider Creati"
+
+#~ msgid ""
+#~ "Select the colour scheme for the theme. <br/> WARNING: if you want to "
+#~ "change the color scheme and the color below this form too, you have to "
+#~ "change this color scheme in first and then, after update, you can change "
+#~ "single colors, in 'Colors' section."
+#~ msgstr ""
+#~ "Seleziona lo schema colore per il tema. <br/> ATTENZIONE: Se vuoi "
+#~ "cambiare il colore principale del tema (schema colore) e "
+#~ "contemporaneamente vuoi modificare altri colori mostrati nei campi "
+#~ "successivi, devi prima modificare lo schema colore principale, salvare i "
+#~ "cambiamenti e solo dopo modificare tutti gli altri colori che sono "
+#~ "associati allo schema colore principale."
+
+#~ msgid "Color Text"
+#~ msgstr "Colore Testo"
+
+#~ msgid "Color Highlight"
+#~ msgstr "Colore Evidenziazione"
+
+#~ msgid "Select the general highlight color"
+#~ msgstr "Seleziona il colore principale dei titoli."
+
+#~ msgid "Color Links"
+#~ msgstr "Colore Link"
+
+#~ msgid "Color Links Hover"
+#~ msgstr "Colore Link Hover"
+
+#~ msgid "Color Nav Links"
+#~ msgstr "Colore Link Navigazione"
+
+#~ msgid "Select the colour of navigation links."
+#~ msgstr ""
+#~ "Seleziona il colore da assegnare ai link della Navigazione principale."
+
+#~ msgid "Color Nav Links Hover"
+#~ msgstr "Colore Hover Link Navigazione"
+
+#~ msgid "Select the colour of hover state of navigation links."
+#~ msgstr ""
+#~ "Seleziona il colore da assegnare allo stato Hover dei link della "
+#~ "navigazione."
+
+#~ msgid "Color Nav Links Descriptions"
+#~ msgstr "Colore Link Descrizione Navigazione"
+
+#~ msgid ""
+#~ "Select the colour of text description, under each item of navigation."
+#~ msgstr ""
+#~ "Seleziona il colore da assegnare al testo descrittivo mostrato sotto ogni "
+#~ "elemento delle navigazione principale del tema."
+
+#~ msgid "Background Copyright Section"
+#~ msgstr "Sfondo Sezione Copyright"
+
+#~ msgid "Select the background color of copyright zone."
+#~ msgstr ""
+#~ "Seleziona il colore di sfondo da assegnare alla sezione Copyright che si "
+#~ "trova subito sotto il footer."
+
+#~ msgid "Color Title Footer"
+#~ msgstr "Colore Titoli Footer"
+
+#~ msgid "Select the title color, of each section of footer."
+#~ msgstr ""
+#~ "Seleziona il colore da assegnare ai titoli presenti su ogni sezione del "
+#~ "footer."
+
+#~ msgid "Background Color of Flickr Thumbs"
+#~ msgstr "Colore di Sfondo per le miniature di Flickr"
+
+#~ msgid "Select the background color of flickr thumbs, on footer."
+#~ msgstr ""
+#~ "Seleziona il Colore dello sfondo che desideri assegnare alle miniature di "
+#~ "Flickr presenti sul Footer."
+
+#~ msgid "Border Color of Flickr Thumbs"
+#~ msgstr "Colore del Bordo per le miniature di Flickr"
+
+#~ msgid "Select the border color of flickr thumbs, on footer."
+#~ msgstr ""
+#~ "Seleziona il colore del Bordo che desideri assegnare alle miniature di "
+#~ "Flickr presenti sul footer."
+
+#, fuzzy
+#~ msgid "Background Color of Quick Contact form"
+#~ msgstr "Colore di Sfondo per le miniature di Flickr"
+
+#, fuzzy
+#~ msgid "Select the background color of quick contact form, on footer."
+#~ msgstr ""
+#~ "Seleziona il Colore dello sfondo che desideri assegnare alle miniature di "
+#~ "Flickr presenti sul Footer."
+
+#, fuzzy
+#~ msgid "Border Color of Quick Contact form"
+#~ msgstr "Colore Bordo Footer"
+
+#, fuzzy
+#~ msgid "Select the border color of quick contact form, on footer."
+#~ msgstr ""
+#~ "Seleziona il colore del Bordo che desideri assegnare alle miniature di "
+#~ "Flickr presenti sul footer."
+
+#~ msgid "Flash Slider Manager"
+#~ msgstr "Gestione Slider Flash"
+
+#~ msgid "Transitions"
+#~ msgstr "Transizioni"
+
+#~ msgid "Pieces"
+#~ msgstr "Parti"
+
+#~ msgid "Number of pieces to which the image is sliced"
+#~ msgstr "Numero di parti in cui scomporre l'immagine dello Slider"
+
+#~ msgid "Time"
+#~ msgstr "Tempo"
+
+#~ msgid "Time for one cube to turn"
+#~ msgstr "Tempo per la rotazione di un cubo."
+
+#~ msgid "Transition"
+#~ msgstr "Transizione"
+
+#~ msgid "Transition type of the Tweener class"
+#~ msgstr "Tipo di transizione per Tweener class"
+
+#~ msgid "Depth Offset"
+#~ msgstr "Offset profondità"
+
+#~ msgid ""
+#~ "The offset during transition on the z-axis. Value between 100 and 1000 "
+#~ "are recommended."
+#~ msgstr ""
+#~ "La durata della transizione di offset nell'asse Z. E' raccomandato "
+#~ "inserire valori compresi tra 100 e 1000."
+
+#~ msgid "Cube Distance"
+#~ msgstr "Distanza Cubo"
+
+#~ msgid ""
+#~ "The distance between the cubes during transition. Values between 5 and 50 "
+#~ "are recommended."
+#~ msgstr ""
+#~ "La distanza tra i cubi durante la transizione. E' raccomandato inserire "
+#~ "valori compresi tra 5 e 50."
+
+#~ msgid "General Configuration"
+#~ msgstr "Configurazione Generale"
+
+#~ msgid "Loader Color"
+#~ msgstr "Colore Loader"
+
+#~ msgid ""
+#~ "Color of the cubes before the first image appears, also the color of the "
+#~ "back sides of the cube, which become visible at some transition types"
+#~ msgstr ""
+#~ "Colore dei budi prima che la prima immagine appaia, così come anche il "
+#~ "colore nelle faccie retrostanti il cubo, che diventa visibile soltanto "
+#~ "con alcuni tipi di transizione."
+
+#~ msgid "Inner Side Color"
+#~ msgstr "Colore Parte Interna"
+
+#~ msgid "Color of the inner sides of the cube when sliced"
+#~ msgstr "Colore della parte interna dei cubi quando "
+
+#~ msgid "Autoplay"
+#~ msgstr "Auto-play"
+
+#~ msgid ""
+#~ "Number of seconds from one transition to another, if not stopped. Set to "
+#~ "0 to disable autoplay"
+#~ msgstr ""
+#~ "Numero di secondi tra una trasizione e l'altro, se non stoppata. Imposta "
+#~ "0 per disabilitare l'autoplay."
+
+#~ msgid "Shadow"
+#~ msgstr "Ombra"
+
+#~ msgid "Side Shadow Alpha"
+#~ msgstr "Opacità Ombra"
+
+#~ msgid ""
+#~ "Sides get darker when moved away from the front. This is the degree of "
+#~ "darkness - 0 == no change, 1 == 100% black."
+#~ msgstr ""
+#~ "Le parti che diventano più scure quando vengono spostati dalla parte "
+#~ "frontale. 0 == nessun cambiamento, 1 == 100% nero."
+
+#~ msgid "Control Size"
+#~ msgstr "Controllo Dimensione"
+
+#~ msgid "Bg Color"
+#~ msgstr "Colore di Sfondo"
+
+#~ msgid "Background color of the controls"
+#~ msgstr "Colore di Background dei controlli"
+
+#~ msgid "Font Color"
+#~ msgstr "Colore del Font"
+
+#~ msgid "Control Alpha"
+#~ msgstr "Controllo Opacità"
+
+#~ msgid "Controls Align"
+#~ msgstr "Controlla Allineamento"
+
+#~ msgid "center"
+#~ msgstr "centrato"
+
+#~ msgid "left"
+#~ msgstr "sinistra"
+
+#~ msgid "Tooltip"
+#~ msgstr "Suggerimento"
+
+#, fuzzy
+#~ msgid "Tooltip Color"
+#~ msgstr "Contenuto Testo"
+
+#, fuzzy
+#~ msgid "Tooltip Text Y"
+#~ msgstr "Contenuto Testo"
+
+#, fuzzy
+#~ msgid "Color of the tooltip text"
+#~ msgstr "Colore Titoli Footer"
+
+#, fuzzy
+#~ msgid "Tooltip Margin Left"
+#~ msgstr "Contenuto Testo"
+
+#, fuzzy
+#~ msgid "Info Box"
+#~ msgstr "Contatti"
+
+#, fuzzy
+#~ msgid "Info Background"
+#~ msgstr "Sfondo Footer"
+
+#~ msgid "The background color of the info text field"
+#~ msgstr "Seleziona un colore di sfondo da assegnare al campo info."
+
+#~ msgid "Select the colour scheme for the theme."
+#~ msgstr "Seleziona il colore per il tema."
+
+#~ msgid "Text under slider"
+#~ msgstr "Testo sotto lo Slider"
+
+#~ msgid ""
+#~ "Select the category for the text will appear on grey section, under some "
+#~ "sliders."
+#~ msgstr ""
+#~ "Seleziona la categoria di articoli che vuoi associare alla sezione grigia "
+#~ "presente sotto alcuni tipi di Slider."
+
+#~ msgid "Homepage"
+#~ msgstr "Home Page"
+
+#~ msgid "Show Slider"
+#~ msgstr "Mostra Slider"
+
+#~ msgid "Say if you want to show the slider on the Home Page"
+#~ msgstr "Indica se desideri mostrare lo Slider in Home Page"
+
+#, fuzzy
+#~ msgid "Show Colourful Section"
+#~ msgstr "Mostra la Sezione con Sfondo Colorato"
+
+#, fuzzy
+#~ msgid "Say if you want to show the colourful section, below slider."
+#~ msgstr ""
+#~ "Indica se vuoi mostrare la sezione con Sfondo Colorato, visualizzata "
+#~ "sotto lo Slider."
+
+#~ msgid "Show Testimonial Slider"
+#~ msgstr "Mostra lo Slider Testimonial"
+
+#~ msgid "Say if you want to show the testimonial slider."
+#~ msgstr "Indica se desideri mostrare lo Slider Testimonial."
+
+#~ msgid "Error fields required"
+#~ msgstr "Errore campi obbligatori"
+
+#~ msgid "Define the message error for the required fields."
+#~ msgstr "Indica il messaggio d'errore da mostrare per i campi obbligatori."
+
+#~ msgid "Error email"
+#~ msgstr "Errore nel campo email"
+
+#~ msgid "Define the message error for email field."
+#~ msgstr "Indica il messaggio di errore da mostrare per il campo email."
+
+#~ msgid "Sent success"
+#~ msgstr "Inviato con successo!"
+
+#~ msgid "Email sent correctly, thanks!"
+#~ msgstr "Email inviata correttamente, grazie!"
+
+#~ msgid "Sent failed"
+#~ msgstr "Invio fallito"
+
+#~ msgid "Send Button"
+#~ msgstr "Pulsante Invio"
+
+#~ msgid "Big Footer"
+#~ msgstr "Footer Grande"
+
+#~ msgid "Small Footer"
+#~ msgstr "Footer Piccolo"
+
+#~ msgid "N° Rows"
+#~ msgstr "N° Righe"
+
+#~ msgid ""
+#~ "Select the number of rows you want to show on <strong>Big Footer</strong>."
+#~ msgstr ""
+#~ "Seleziona il numero di righe che vuoi mostrare nel <strong>Footer Grande</"
+#~ "strong>."
+
+#~ msgid "Active Portfolio"
+#~ msgstr "Attiva Portfolio"
+
+#~ msgid "Active Gallery"
+#~ msgstr "Attiva Galleria "
+
+#~ msgid "Show more text"
+#~ msgstr "Mostra link more"
+
+#~ msgid ""
+#~ "Select if you want to show more text after tooltip content, linked with "
+#~ "slide's link."
+#~ msgstr ""
+#~ "Seleziona se vuoi mostrare il link 'More' dopo il contenuto, che "
+#~ "indirizza al collegamento dello slide."
+
+#~ msgid "Store Configuration"
+#~ msgstr "Configurazione e-Commerce"
+
+#~ msgid "Single Product Page"
+#~ msgstr "Pagina Singolo Prodotto"
+
+#~ msgid "Show Special Items Widget"
+#~ msgstr "Mostra Widget Prodotti Speciali"
+
+#~ msgid ""
+#~ "Select if you want to show the special items widget after product details."
+#~ msgstr ""
+#~ "Indica se desideri mostrare lo i Prodotti Speciali sotto il Dettaglio "
+#~ "della pagina prodotto."
+
+#~ msgid "Title Special Items Widget"
+#~ msgstr "Titolo widget Prodotti Speciali"
+
+#~ msgid "The title of the special items widget after product details."
+#~ msgstr "Indica il titolo da assegnare ai Prodotti Speciali"
+
+#~ msgid "Description Special Items Widget"
+#~ msgstr "Descrizione Widget Prodotti Speciali"
+
+#~ msgid "The description of the special items widget after product details."
+#~ msgstr ""
+#~ "Indica una breve descrizione da assegnare al Widget dei Prodotti Speciali."
+
+#, fuzzy
+#~ msgid "Picture"
+#~ msgstr "Parti"
+
+#, fuzzy
+#~ msgid "Select gallery"
+#~ msgstr "Seleziona il nome dello Slider."
+
+#, fuzzy
+#~ msgid "Image list"
+#~ msgstr "Immagine"
+
+#, fuzzy
+#~ msgid "Slideshow"
+#~ msgstr "Slides"
+
+#, fuzzy
+#~ msgid "No effect"
+#~ msgstr "effetto"
+
+#, fuzzy
+#~ msgid "Watermark"
+#~ msgstr "Formato Data"
+
+#, fuzzy
+#~ msgid "Left"
+#~ msgstr "sinistra"
+
+#, fuzzy
+#~ msgid "Center"
+#~ msgstr "centrato"
+
+#, fuzzy
+#~ msgid "Right"
+#~ msgstr "destra"
+
+#, fuzzy
+#~ msgid "Cancel"
+#~ msgstr "Cancella commento"
+
+#, fuzzy
+#~ msgid "Insert"
+#~ msgstr "Risposta"
+
+#~ msgid "All"
+#~ msgstr "Tutto"
+
+#~ msgid "Icon (near title)"
+#~ msgstr "Icone (vicino al titolo)"
+
+#~ msgid "What is your name?"
+#~ msgstr "Qual è il tuo nome?"
+
+#~ msgid "Where I can reply?"
+#~ msgstr "Dove posso risponderti?"
+
+#~ msgid "Talk to me."
+#~ msgstr "Parlami."
+
+#~ msgid "Send Message"
+#~ msgstr "Invia Messaggio"
+
+#~ msgid "On 'Theme Options' you can configure the sending options."
+#~ msgstr "Su 'Theme Options' puoi configurare le opzioni di invio."
+
+#~ msgid "One or more field aren't filled correctly!"
+#~ msgstr "Uno o più campi non sono stati compilati correttamente!"
+
+#~ msgid "Insert correct name"
+#~ msgstr "Inserisci il nome correttamente"
+
+#~ msgid "Color Dropdown Menu"
+#~ msgstr "Colore Sottomenù"
+
+#~ msgid "Select the colour of dropdown menu navigation."
+#~ msgstr "Seleziona il colore per il sottomenù di navigazione."
+
+#~ msgid "Black"
+#~ msgstr "Nero"
+
+#~ msgid "White"
+#~ msgstr "Bianco"
+
+#~ msgid "Border left of navigation item"
+#~ msgstr "Bordo Divisore Navigazione"
+
+#~ msgid "Select the border left color, of each item of main navigation."
+#~ msgstr ""
+#~ "Seleziona il colore da assegnare al Bordo Divisore presente nella "
+#~ "Navigazione principale del tema."
+
+#~ msgid "Border right of navigation item"
+#~ msgstr "Bordo destro del menù di navigazione"
+
+#~ msgid "Select the border right color, of each item of main navigation."
+#~ msgstr ""
+#~ "Seleziona il colore da assegnare al bordo destro per ogni voce della "
+#~ "navigazione principale del tema."
+
+#~ msgid "Color Active link of Arrow Fade Slider"
+#~ msgstr "Colore Link sullo Slider Arrow Fade"
+
+#~ msgid ""
+#~ "Select the active link color of 'Arrow Fade Slider', if you have selected "
+#~ "it on 'Slider Options'."
+#~ msgstr ""
+#~ "Seleziona il colore da assegnare ai link attivi sullo slider Arrow Fade "
+#~ "(nel caso su 'Opzioni Slider) avessi scelto di utilizzare questo tipo di "
+#~ "slider."
+
+#~ msgid "Background Footer"
+#~ msgstr "Sfondo Footer"
+
+#~ msgid "Select the background color of footer."
+#~ msgstr "Seleziona il colore di sfondo da assegnare al footer."
+
+#~ msgid "Color Text Footer"
+#~ msgstr "Colore Testo Footer"
+
+#~ msgid "Select the text color, of each section of footer."
+#~ msgstr "Seleziona il colore da assegnare al testo mostrato sul footer."
+
+#~ msgid "Select the color of hover state of all links of footer."
+#~ msgstr ""
+#~ "Seleziona il colore da assegnare allo stato hover dei link presenti nella "
+#~ "sezione footer."
+
+#~ msgid "Select the color all borders of footer."
+#~ msgstr ""
+#~ "Seleziona il colore utilizzato per i bordi divisori utilizzati sul footer."
+
+#~ msgid "Define the message error for name field."
+#~ msgstr "Indica il messaggio di errore da mostrare per il campo Nome."
+
+#~ msgid "The field name and email are required"
+#~ msgstr "I campi nome ed email sono obbligatori"
+
+#~ msgid "Map"
+#~ msgstr "Mappa"
+
+#~ msgid "Latest News"
+#~ msgstr "Ultime News"
+
+#~ msgid "|| Read news"
+#~ msgstr "|| Leggi News"
+
+#~ msgid "Arrow Fade Slider Settings"
+#~ msgstr "Impostazioni Slider Arrow Fade"
+
+#~ msgid "Arrow Fade Slides"
+#~ msgstr "Slide Arrow Fade"
+
+#~ msgid "Full Width Slider Settings"
+#~ msgstr "Impostazioni Slider Full Width"
+
+#~ msgid "Full Width Slides"
+#~ msgstr "Slide Full Width"
+
+#~ msgid "Say if you want to show the sidebar on the Home Page"
+#~ msgstr "Indica se desideri mostrare la Sidebar in Home Page"
+
+#~ msgid "Text Under Sidebar"
+#~ msgstr "Testo sotto la Sidebar"
+
+#~ msgid ""
+#~ "Write what you want to show under the content and sidebar, on home page."
+#~ msgstr ""
+#~ "Scrivi qui quello che vuoi mostrare sotto il contenuto e la sidebar "
+#~ "presenti sulla home Page"
+
+#~ msgid "Specific what category you want to assign to the posts of portfolio."
+#~ msgstr ""
+#~ "Specifica quale categoria desideri associare alla pagina portfolio, così "
+#~ "da mostrarne i relativi contenuti."
+
+#~ msgid "Telephone"
+#~ msgstr "Telefono"
+
+#~ msgid "Enter your telephone number, showed near 'CALL US'"
+#~ msgstr "Inserisci il tuo numero di telefono"
+
+#~ msgid "Enter your fax number, showed near 'FAX US'"
+#~ msgstr "Inserisci il tuo numero di Fax"
+
+#~ msgid "Socials icons"
+#~ msgstr "Icone Social"
+
+#~ msgid ""
+#~ "Insert into this textarea the shortcode to display the socials icons.<br /"
+#~ ">You can use this format for show the icons: [social type=\"facebook|"
+#~ "twitter|ecc...\" href=\"the_url_of_your_social_page\"]. You can find more "
+#~ "information of this shortcode, on help docs of this theme."
+#~ msgstr ""
+#~ "Inserisci dentro la textarea lo shortcode per mostrare le icone dei "
+#~ "social.<br />Per mostrare le icone puoi usare questo formato: [social "
+#~ "type=\"facebook|twitter|ecc...\" href=\"the_url_of_your_social_page\"]. "
+#~ "Puoi trovare ulteriori informazioni sull'utilizzo di questo shortcode "
+#~ "nella documentazione di supporto rilasciata insieme al tema oppure alla "
+#~ "<a href=\"http://www.yourinspirationweb.com/tf/bolder/shortcode/widgets/"
+#~ "\">seguente</a> pagina web."
+
+#~ msgid "Say if you want the google map in the contact page."
+#~ msgstr "Indica se vuoi mostrare la Google Map nella pagina Contatti."
+
+#~ msgid "Google Map Code"
+#~ msgstr "Codice Google Map"
+
+#~ msgid "Insert here the google map code, if you want to show it."
+#~ msgstr "Inserisci qui il codice relativo alla Google Map che vuoi mostrare."
+
+#~ msgid ""
+#~ "Write your information for address box, in alternative to google map. "
+#~ "(HTML is allowed)"
+#~ msgstr ""
+#~ "Scrivi le informazioni che desideri visualizzare nel box destinato agli "
+#~ "indirizzi in alternativa alla Google Map. (Il codice HTML è permesso)."
+
+#~ msgid "Flash News Footer"
+#~ msgstr "Flash News Footer"
+
+#~ msgid "Category Flash News"
+#~ msgstr "Categoria Flash News"
+
+#~ msgid ""
+#~ "Select the category for posts to show on the flash news, above the footer."
+#~ msgstr ""
+#~ "Seleziona la categoria per mostrare gli articoli nella sezione flash news "
+#~ "che si trova sopra il footer."
+
+#~ msgid "Items for Flash News"
+#~ msgstr "News da mostrare"
+
+#~ msgid "Select how many items you want to show on the flash show cycle."
+#~ msgstr ""
+#~ "Indica quante news desideri mostrare in ciclo nella sezione Flash News."
+
+#~ msgid "Nivo Big Slides"
+#~ msgstr "Slide Nivo Big"
+
+#~ msgid "Products"
+#~ msgstr "Prodotti"
+
+#~ msgid ""
+#~ "Select how many items you want to show.<br /> (PS: on 'Arrow Fade "
+#~ "Slider', are raccomanded 5 items, for a better visualization)"
+#~ msgstr ""
+#~ "Seleziona il numero di oggetti da mostrare in ciclo nello Slider. <br /> "
+#~ "(PS: nello slider chiamato 'Arrow Fade Slider', sono consigliati 5 "
+#~ "oggetti per una corretta visualizzazione)"
+
+#~ msgid "Select the category for posts to show on the slider."
+#~ msgstr "Seleziona la categoria di articoli che vuoi associare allo Slider."
+
+#~ msgid "Get in touch"
+#~ msgstr "Restiamo in contatto"
+
+#~ msgid "CALL US:"
+#~ msgstr "Chiamaci"
+
+#~ msgid "FAX US:"
+#~ msgstr "Fax"
+
+#~ msgid "Social"
+#~ msgstr "Social"
+
+#~ msgid "News below the slider"
+#~ msgstr "News sotto lo Slider"
+
+#~ msgid "Items for News below the slider"
+#~ msgstr "Numero di oggetti per le News sotto lo Slider"
+
+#~ msgid ""
+#~ "Select how many items you want to show on the news will appear below some "
+#~ "sliders."
+#~ msgstr ""
+#~ "Indica quante news desideri mostrare (in ciclo) in questa sezione "
+#~ "visualizzata sotto alcuni tipi di slider."
+
+#~ msgid "|| Leggi news"
+#~ msgstr "|| Leggi news"

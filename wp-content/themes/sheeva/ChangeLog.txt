@@ -1,0 +1,31 @@
+------------------ VER 1.1 ---------------
+Fixed : unoslider text caption responsive
+Fixed : dropdown menu overlapped by youtube videos in cycle slider
+Fixed : fonts warning when theme installed
+Fixed : option to change the headings font sizes
+Fixed : resizing of video in mobile devices
+Fixed : 404 page layout
+
+UPDATE
+core/theme-options/install/install.php
+core/default-shortcodes/media.php
+core/functions-fonts.php
+css/lessthen600.css
+inc/LayerSlider/layerslider.php
+inc/LayerSlider/settings.php
+inc/theme-options/general-options.php
+inc/fonts.php
+inc/functions-theme.php
+inc/shortcodes.php
+loop-blog-big.php
+loop-blog-minimal.php
+loop-blog-small.php
+loop-portfolio.php
+style.css
+
+ADDED
+images/icons/search.png
+
+
+------------------ VER 1.0 ---------------
+Initial Release

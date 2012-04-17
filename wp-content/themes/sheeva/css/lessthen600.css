@@ -1,0 +1,24 @@
+#logo {margin-left:0;width:100%;text-align:center;}          
+
+#nav {text-align:center;width:100%;clear:both;}                                  
+#nav ul {margin-top:0px;display:inline-block;float:none;margin-left:-20px;margin-top:16px;}
+#nav ul.sub-menu li, #nav ul.children li {text-align:left;}
+#nav li {margin-top:6px;}
+
+.home-sections .section .section-title {position:static;width:auto;}
+.home-sections .section .section-title h2 {background:none !important;height:auto;line-height:24px;padding:0;width:auto;text-align:left;margin-bottom:1em;}
+.home-sections .section .section-title h4, .home-sections .section .section-title p {display:none;}
+.home-sections .section .section-content {margin-left:0;}                      
+                                                          
+body .last-row {margin-bottom:20px;}
+.box-sections, .one-fourth, .one-third, .two-fourth, .two-third {width:100%;clear:both;}         
+.footer_cols_5 .widget, .footer_cols_4 .widget { width: 100%; clear:both; }
+
+table td, table th {padding:5px 10px;}              
+
+#header { background: url('../images/bg/header-480.png') no-repeat center bottom; }
+
+.pp_pic_holder, .pp_overlay {display:none !important;}       
+
+.unoslider_indicator, .unoslider_pause, .unoslider_play, .unoslider_left, .unoslider_right {display:none !important;}
+.unoslider_caption {right:0 !important;left:0 !important;}
