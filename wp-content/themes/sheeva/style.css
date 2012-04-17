@@ -2,7 +2,7 @@
 Theme name: Sheeva
 Theme URI: http://yourinspirationweb.com/demo/sheeva/
 Description: The start base for easy theme wordpress development.
-Version: 1.1
+Version: 1.1.1
 Author: Your Inspiration Web
 Author URI: http://www.yourinspirationweb.com/en/
 License: GNU General Public License version 3.0
@@ -26,7 +26,7 @@ a img {border:none;}
 .center {text-align:center;}                                       
 
 /* self-clear floats */
-.group:after { content:"."; display:block; height:0; clear:both; visibility:hidden; } 
+.group:after { content:"."; display:block; height:0; clear:both; visibility:hidden; overflow:hidden; } 
 /* ie.css */
 * html .group { /* IE6 */
     height:1%;
@@ -80,7 +80,7 @@ body .last, body .widget-last { margin-right:0; border-right:0; }
 body .last-row {margin-bottom:0;}
  
 
-.wrapper { padding: 0; }               
+.wrapper { padding: 0; min-width:960px }               
 .inner { width:960px; margin:0 auto; /* main width */ }     
 .responsive .inner { max-width:960px; width:auto; }
 body.responsive .wrapper { overflow:hidden; }
@@ -849,9 +849,9 @@ tr:nth-child(2n+1) {background-color:#f6f6f6;}
 .price-table {background:#fff url('images/bg/tab-price-gradient.png') repeat-x;width:280px;border:1px solid #d2d0d0;margin:0 0 20px}
 .price-table .head {height:100px;text-align:center;border-bottom:1px solid #d2d0d0;}
 .price-table .head p {margin:0 !important;padding:0 !important;line-height:4em;font-size:13px;}
-.price-table .head h2.price {font-size:4em;margin:0 !important;line-height:0.4em;text-align:center;padding:0;}
+.price-table .head h2.price {font-size:2.8em;margin:0 !important;line-height:0.4em;text-align:center;padding:0;}
 .price-table .body {padding:20px 25px;}
-.price-table .body ul {list-style:none;margin:0 0 20px;}
+.price-table .body ul {list-style:none !important;margin:0 0 20px !important;}
 .price-table .body li {padding:10px 0 10px 35px;background:url('images/icons/tick20.png') left center no-repeat;line-height:20px;}
 .price-table .body .more {text-align:center;padding:0!important;margin:0!important;}
 .price-table .body .more a {padding:5px 10px;text-align:center;border:1px solid #dbd8d8;background:#f3f3f3;color:#999;display:inline-block;width:auto;height:16px;line-height:16px;text-transform:uppercase;font-size:110%;}

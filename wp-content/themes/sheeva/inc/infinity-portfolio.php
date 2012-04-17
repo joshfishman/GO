@@ -17,7 +17,7 @@ if ( is_admin() && ! get_option( 'default_portfolios_created' ) ) {
     ) );      
     add_post_meta( $id, '_portfolio_type', '3cols' );
     add_post_meta( $id, '_portfolio_item', '' ); 
-    add_post_meta( $id, '_portfolio_read_more', __( 'View Project', 'yiw' ) ); 
+    add_post_meta( $id, '_portfolio_read_more', __( 'view project »', 'yiw' ) ); 
     add_post_meta( $id, '_portfolio_rewrite', 'work' ); 
     add_post_meta( $id, '_portfolio_label_sin', __( 'Work', 'yiw' ) ); 
     add_post_meta( $id, '_portfolio_label_plu', __( 'Works', 'yiw' ) ); 
@@ -172,14 +172,14 @@ function yiw_portfolio_metaboxes() {
 		60 => array( 
 			'id' => 'portfolio_tax',
 			'name' => __( 'Taxonomy', 'yiw' ),  
-			'desc' => __( "Set the taxonomy for this portfolio. Leave empty, if you don't want a taxonomy.", 'yiw' ),
+			'desc' => __( "Set the taxonomy for this portfolio. Don't name it as your Portfolio name otherwise it will not work - Or leave empty, if you don't want a taxonomy.", 'yiw' ),
 			'type' => 'text',
 			'std' => ''
 		),    
 		70 => array( 
 			'id' => 'portfolio_tax_rewrite',
 			'name' => __( 'Taxonomy rewrite', 'yiw' ),  
-			'desc' => __( 'Set the rewrite role for the posts of this portfolio. Leave empty to generate it automatically.', 'yiw' ),
+			'desc' => __( "Set the rewrite role for the posts of this portfolio. Don't name it as your Portfolio rewrite otherwise it will not work - Leave empty to generate it automatically.", 'yiw' ),
 			'type' => 'text',
 			'std' => ''
 		),     

@@ -37,12 +37,14 @@ function yiw_get_widgets() {
 	
 	$file_widgets = yiw_list_files_into( YIW_WIDGETS_FOLDER );
 	foreach ( $file_widgets as $file ) {
+	    if ( ! preg_match( '/(.*).php/', $file ) ) continue;
 		$name = preg_replace( '/(.*).php/', '$1', $file );
 		$widgets['theme'][] = $name;
 	}
 	
 	$file_widgets = yiw_list_files_into( YIW_DEFAULT_WIDGETS_FOLDER );
-	foreach ( $file_widgets as $file ) {
+	foreach ( $file_widgets as $file ) {                      
+	    if ( ! preg_match( '/(.*).php/', $file ) ) continue;
 		$name = preg_replace( '/(.*).php/', '$1', $file );
 		if ( ! in_array( $name, $widgets['theme'] ) )
 		    $widgets['default'][] = $name;

@@ -56,7 +56,7 @@ function yiw_theme_setup() {
         'thumb_more_projects'   => array( 86,  86,  true ),   
         'thumb-slider-elastic'  => array( 150, 59,  true ),   
         'blog_minimal'          => array( 540, 0,   true ),
-        'blog_big'              => array( 720, 0,   true ),
+        'blog_big'              => array( 720, 268, true ),
         'blog_small'            => array( 288, 266, true ) 
     );
     
@@ -122,7 +122,25 @@ function yiw_theme_setup() {
         array(
             'nav'           => __( 'Navigation' )
         )
-    );
+    );      
+    
+    // sheeva widget area columns                      
+    $sidebars = wp_get_sidebars_widgets();
+    $cols = 0;  
+    if ( ! empty( $sidebars['sheeva-widget-area'] ) ) {           
+        foreach ( $sidebars['sheeva-widget-area'] as $widget ) {
+            $cols++;
+            if ( preg_match( '/sheeva-quote/', $widget ) )
+                $cols++;    
+        }
+    }
+        
+    switch ( $cols ) {
+        case 1 : $sheeva_class = 'only-one'; break;
+        case 2 : $sheeva_class = 'two-fourth'; break;
+        case 3 : $sheeva_class = 'one-third'; break;
+        default : $sheeva_class = 'one-fourth'; break;
+    }
     
     // images size 
     //add_image_size( 'thumb', 100, 100 );           
@@ -131,7 +149,7 @@ function yiw_theme_setup() {
     register_sidebar( yiw_sidebar_args( 'Default Sidebar', __( 'This sidebar will be shown in all pages with empty sidebar or without any sidebat set.', 'yiw' ) ) );      
 	
     register_sidebar( yiw_sidebar_args( 'Blog Sidebar', __( 'The sidebar showed on page with Blog template', 'yiw' ) ) ); 
-    register_sidebar( yiw_sidebar_args( 'Sheeva Widget Area', __( 'The widget area below the Sheeva slider', 'yiw' ), 'sheeva-widget widget col1_4 col', 'h3' ) );
+    register_sidebar( yiw_sidebar_args( 'Sheeva Widget Area', __( 'The widget area below the Sheeva slider', 'yiw' ), "sheeva-widget widget col1_$cols $sheeva_class col", 'h3' ) );
     
     register_sidebar( yiw_sidebar_args( 'Gallery Sidebar', __( 'The sidebar used in Gallery Template', 'yiw'), 'widget', 'h3' ) );            
     register_sidebar( yiw_sidebar_args( 'Portfolio Sidebar', __( 'The sidebar used in Portfolio Full description and in single portfolio template.', 'yiw'), 'widget', 'h3' ) );             

@@ -21,6 +21,3 @@ require_once dirname(__FILE__) . '/inc/carousel_wpress/carousel_wpress.php';
 /* End Theme Load Functions - You can add custom functions below */
 /*-----------------------------------------------------------------------------------*/         
 
-
-
-?>

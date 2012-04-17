@@ -19,7 +19,7 @@ if( isset($post->ID) && $slider = get_post_meta( get_the_ID(), 'slider_type', tr
         get_template_part( 'slider', $slider ); 
 } else return;                          
 		
-    if ( ! in_array( $slider, $responsive ) && yiw_get_option( 'slider_responsive' ) == 'fixed-image' ) : ?>   
+    if ( ! in_array( $slider, $responsive ) && yiw_get_option( 'slider_responsive' ) == 'fixed-image' && $slider != 'fixed-image' ) : ?>   
         <div class="slider-mobile">
            <?php get_template_part( 'slider', 'fixed-image' ); ?>    
         </div>   

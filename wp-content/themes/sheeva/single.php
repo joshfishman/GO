@@ -2,9 +2,14 @@
 /**
  * @package WordPress
  * @since 1.0
- */
+ */                       
  
-wp_enqueue_style( 'Oswald', 'http://fonts.googleapis.com/css?family=Oswald&v2' );
+wp_enqueue_style( 'Oswald', 'http://fonts.googleapis.com/css?family=Oswald&v2' );      
+
+if ( yiw_is_portfolio_post_type() ) {
+    get_template_part( 'single', 'portfolio' );     
+    die;
+}
 
 $post_type = get_post_type();
  
@@ -28,8 +33,9 @@ get_header() ?>
                     
                     <?php switch( $post_type ) {
                               case TYPE_SERVICES  : 
-                              case TYPE_PORTFOLIO : get_template_part('loop', 'internal'); break;
-                              default             : get_template_part('loop', 'index');
+                              case TYPE_PORTFOLIO : 
+                              case 'bl_testimonials' : get_template_part('loop', 'internal'); break;
+                              default                : get_template_part('loop', 'index');
                           }
                     ?>
     

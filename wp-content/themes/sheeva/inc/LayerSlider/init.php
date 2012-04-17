@@ -15,12 +15,12 @@
     		navButtons			: <?php echo $val['properties']['navbuttons']?>,
     		skin				: '<?php echo $val['properties']['skin']?>',
     		skinsPath			: '<?php echo YIW_LAYERSLIDER_URL?>/skins/'
-    		<?php if(!empty($val['properties']['backgroundcolor']) || !empty($val['properties']['backgroundimage'])) : ?>,<?php endif; ?>
-    		<?php if(!empty($val['properties']['backgroundcolor'])) : ?>
+    		<?php if($val['properties']['backgroundcolor']!='false' || $val['properties']['backgroundimage']!='false') : ?>,<?php endif; ?>
+    		<?php if($val['properties']['backgroundcolor']!='false') : ?>
     		globalBGColor		: '<?php echo $val['properties']['backgroundcolor']?>'
- 			<?php if(!empty($val['properties']['backgroundimage'])) : ?>,<?php endif; ?>
+ 			<?php if($val['properties']['backgroundimage']!='false') : ?>,<?php endif; ?>
     		<?php endif; ?>
-    		<?php if(!empty($val['properties']['backgroundimage'])) : ?>
+    		<?php if($val['properties']['backgroundimage']!='false') : ?>
     		globalBGImage		: '<?php echo $val['properties']['backgroundimage']?>'
     		<?php endif; ?>
     	});

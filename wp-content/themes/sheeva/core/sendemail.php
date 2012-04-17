@@ -177,11 +177,13 @@ function yiw_module( $form, $echo = true )
 		if( isset( $field['email_validate'] ) AND $field['email_validate'] == 'yes' )
 			$input_class[] = 'email-validate';
 
-		// retrive value
-		if( isset( $field['data_name'] ) && $error )
-		    $value = yiw_get_value( $field['data_name'] );
-		else
-		    $value = '';
+        // retrive value
+        if( isset( $field['data_name'] ) && $error )
+            $value = yiw_get_value( $field['data_name'] );
+        else if ( isset( $_GET[ $field['data_name'] ] ) )
+            $value = $_GET[ $field['data_name'] ];
+        else
+            $value = '';
 
 		// only for clean code
 		$html .= "\t\t\t\t";

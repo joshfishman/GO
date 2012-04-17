@@ -25,11 +25,6 @@
             <!-- END FOOTER -->     
         </div>     
         <!-- END WRAPPER -->  
-    <script type="text/javascript">
-        //<![CDATA[
-        Cufon.replace( '.slider_sheeva .slide-title h2' );
-        Cufon.now();  //]]>
-    </script>            
     
     <?php wp_footer() ?>   
     </body>

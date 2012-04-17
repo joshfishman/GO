@@ -1,7 +1,7 @@
 					<div class="rm_section">
 	                    <div class="rm_title">
 							<h3>
-								<img src="<?php echo yiw_panel_url() ?>'/include/images/trans.png" class="noeffect" alt="" />
+								<img src="<?php echo yiw_panel_url() ?>/include/images/trans.png" class="noeffect" alt="" />
 								<?php _e( 'Import configuration', 'yiw' ) ?>
 							</h3>
 							
@@ -59,7 +59,7 @@
                     <div class="rm_section">
 	                    <div class="rm_title">
 							<h3>
-								<img src="<?php echo yiw_panel_url() ?>'/include/images/trans.png" class="noeffect" alt="" />
+								<img src="<?php echo yiw_panel_url() ?>/include/images/trans.png" class="noeffect" alt="" />
 								<?php _e( 'List of all configurations', 'yiw' ) ?>
 							</h3>
 							
@@ -107,7 +107,7 @@
                     <div class="rm_section">
 	                    <div class="rm_title">
 							<h3>
-								<img src="<?php echo yiw_panel_url() ?>'/include/images/trans.png" class="noeffect" alt="" />
+								<img src="<?php echo yiw_panel_url() ?>/include/images/trans.png" class="noeffect" alt="" />
 								<?php _e( 'Export/Import', 'yiw' ) ?>
 							</h3>
 							

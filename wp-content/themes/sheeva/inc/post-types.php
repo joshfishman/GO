@@ -47,12 +47,12 @@ function yiw_register_post_types(){
           'description' => __('Testimonals', 'yiw'),
           'exclude_from_search' => false,
           'show_ui' => true,
-          'labels' => yiw_label(__('Testimonial', 'yiw'), __('Testimonials', 'yiw')),
+          'labels' => yiw_label( apply_filters( 'yiw_testimonials_label_singular', __('Testimonial', 'yiw') ), apply_filters( 'yiw_testimonials_label_plural', __('Testimonials', 'yiw') ) ),
           'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt' ),
           'public' => true,
           'capability_type' => 'post',
           'publicly_queryable' => true,
-          'rewrite' => array( 'slug' => 'post/testimonials', 'with_front' => true )
+          'rewrite' => array( 'slug' => apply_filters( 'yiw_testimonial_rewrite', 'post/testimonials' ), 'with_front' => true )
         )
     ); 
                 
@@ -62,12 +62,12 @@ function yiw_register_post_types(){
           'description' => __('Gallery', 'yiw'),
           'exclude_from_search' => false,
           'show_ui' => true,
-          'labels' => yiw_label(__('Photo', 'yiw'), __('Photos', 'yiw'), __('Gallery', 'yiw') ),
+          'labels' => yiw_label( apply_filters( 'yiw_gallery_label_singular', __('Photo', 'yiw') ), apply_filters( 'yiw_gallery_label_plural', __('Photos', 'yiw') ), __('Gallery', 'yiw') ),
           'supports' => array( 'title', 'editor', 'thumbnail' ),
           'public' => true,
           'capability_type' => 'post',
           'publicly_queryable' => true,
-          'rewrite' => array( 'slug' => 'post/gallery', 'with_front' => true )
+          'rewrite' => array( 'slug' => apply_filters( 'yiw_gallery_rewrite', 'post/gallery' ), 'with_front' => true )
         )
     ); 
   
@@ -77,12 +77,12 @@ function yiw_register_post_types(){
           'description' => __('Services', 'yiw'),
           'exclude_from_search' => false,
           'show_ui' => true,
-          'labels' => yiw_label(__('Service', 'yiw'), __('Services', 'yiw'), __('Services', 'yiw')),
+          'labels' => yiw_label( apply_filters( 'yiw_services_label_singular', __('Service', 'yiw') ), apply_filters( 'yiw_services_label_plural', __('Services', 'yiw')), __('Services', 'yiw')),
           'supports' => array( 'title', 'editor', 'thumbnail' ),
           'public' => true,
           'capability_type' => 'post',
           'publicly_queryable' => true,
-          'rewrite' => array( 'slug' => 'post/services', 'with_front' => true )
+          'rewrite' => array( 'slug' => apply_filters( 'yiw_service_rewrite', 'post/services' ), 'with_front' => true )
         )
     ); 
             
@@ -153,7 +153,7 @@ function yiw_register_taxonomies()
         'labels' => yiw_label_tax(__('Category', 'yiw'), __('Categories', 'yiw')),
         'show_ui' => true,
         'query_var' => true,
-        'rewrite' => array( 'slug' => 'photo/category', 'with_front' => false )
+        'rewrite' => array( 'slug' => apply_filters( 'yiw_category_photo_rewrite', 'photo/category' ), 'with_front' => false )
     ));
 }    
 

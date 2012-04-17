@@ -231,7 +231,7 @@ function yiw_init_panel()
 			$url = admin_url( 'themes.php' ) . "?page=$_GET[page]&tab=$tab&message=updated";  
             yiw_end_process( $url, $ajax );
         }
-		elseif( 'delete' == $_REQUEST['action'] )
+		elseif( 'delete' == $_REQUEST['action'] )    //action=delete&slider_cycle_slides=0&key=id
 		{                      
         	if ( isset( $_GET[ 'id' ] )  ) {
 				yiw_delete_option( $_GET[ 'id' ] );
@@ -249,11 +249,11 @@ function yiw_init_panel()
 					// check if passed delete mode on querystr, to delete specific vars
 					if( isset( $_GET[ $value[ $_GET[ 'key' ] ] ] ) )
 					{
-						$value_array = unserialize( yiw_get_option( $value[ $_GET[ 'key' ] ] ) ); 
+						$value_array = unserialize( yiw_get_option( $value[ $_GET[ 'key' ] ] ) );    
 						unset( $value_array[ $_GET[ $value[ $_GET[ 'key' ] ] ] ] );
 						                                                    
 						//print_r($value_array);
-						$yiw_theme_options[ $value[ $_GET[ 'key' ] ] ] = serialize( $value_array );   
+						$yiw_theme_options[ $value[ $_GET[ 'key' ] ] ] = serialize( array_values( $value_array ) );   
             
             			yiw_update_theme_options();
 						

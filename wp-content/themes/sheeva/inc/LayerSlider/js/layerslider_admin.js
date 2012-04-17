@@ -479,7 +479,7 @@ var layerSlider = {
 		jQuery('#layerslider-tabs > div').each(function(slide) {
 			
 			// Iterate over the slide properties
-			jQuery(this).find('.form-table input').each(function() {
+			jQuery(this).find('.form-table input, .form-table select').each(function() {
 				
 				// Save slide properties
 				jQuery(this).attr('name', 'layerslider-slides['+slide+'][properties]['+jQuery(this).attr('name')+']');

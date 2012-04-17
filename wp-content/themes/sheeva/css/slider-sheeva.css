@@ -283,8 +283,9 @@ div.anythingSlider, div.anythingSlider .anythingWindow, div.anythingSlider .anyt
 .sheeva-widget-content h2 { font-family: 'Bebas', serif; }
 
 
-.sheeva-widget-content .widget { border-right: 1px solid #ccc; margin-top: 15px; min-height: 98px; margin-bottom:0; width:209px; padding-right:10px; }
+.sheeva-widget-content .widget { border-right: 1px solid #ccc; margin-top: 15px; min-height: 98px; margin-bottom:0; padding-right:10px; }
 .sheeva-widget-content .widget-last { border:none; float:none; display:block; width: auto !important; }
+.sheeva-widget-content .widget.only-one {width:100%;margin-right:0;border-right:none;padding-right:0;}
 
 .sheeva-widget-content .sheeva-text-image-icon-left  { padding-right: 10px;  }
 .sheeva-widget-content .sheeva-text-image-icon-right { padding-left: 10px;  }

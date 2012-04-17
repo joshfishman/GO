@@ -119,14 +119,14 @@ class YIW_Tinymce {
 	 * @since 1.0
 	 */
     function add_shortcode_tinymce_plugin($plugin_array) {
-        $plugin_array['one_fourth']         = YIW_FRAMEWORK_URL . '/tinymce/js/editor_plugin.dev.js';
-        $plugin_array['one_third']          = YIW_FRAMEWORK_URL . '/tinymce/js/editor_plugin.dev.js';
-        $plugin_array['two_third']          = YIW_FRAMEWORK_URL . '/tinymce/js/editor_plugin.dev.js';
-        $plugin_array['two_fourth']         = YIW_FRAMEWORK_URL . '/tinymce/js/editor_plugin.dev.js';
-        $plugin_array['one_fourth_last']    = YIW_FRAMEWORK_URL . '/tinymce/js/editor_plugin.dev.js';
-        $plugin_array['one_third_last']     = YIW_FRAMEWORK_URL . '/tinymce/js/editor_plugin.dev.js';
-        $plugin_array['two_third_last']     = YIW_FRAMEWORK_URL . '/tinymce/js/editor_plugin.dev.js';
-        $plugin_array['two_fourth_last']    = YIW_FRAMEWORK_URL . '/tinymce/js/editor_plugin.dev.js';
+        $plugin_array['one_fourth']         = YIW_FRAMEWORK_URL . 'tinymce/js/editor_plugin.dev.js';
+        $plugin_array['one_third']          = YIW_FRAMEWORK_URL . 'tinymce/js/editor_plugin.dev.js';
+        $plugin_array['two_third']          = YIW_FRAMEWORK_URL . 'tinymce/js/editor_plugin.dev.js';
+        $plugin_array['two_fourth']         = YIW_FRAMEWORK_URL . 'tinymce/js/editor_plugin.dev.js';
+        $plugin_array['one_fourth_last']    = YIW_FRAMEWORK_URL . 'tinymce/js/editor_plugin.dev.js';
+        $plugin_array['one_third_last']     = YIW_FRAMEWORK_URL . 'tinymce/js/editor_plugin.dev.js';
+        $plugin_array['two_third_last']     = YIW_FRAMEWORK_URL . 'tinymce/js/editor_plugin.dev.js';
+        $plugin_array['two_fourth_last']    = YIW_FRAMEWORK_URL . 'tinymce/js/editor_plugin.dev.js';
         return $plugin_array;
     }               	
     

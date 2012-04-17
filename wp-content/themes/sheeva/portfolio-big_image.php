@@ -66,7 +66,7 @@
 
                         <div class="work-description">
                             <h3><?php the_title() ?></h3>
-                            <?php echo yiw_content(25, yiw_get_option('portfolio_more_text')) ?>
+                            <?php echo yiw_content(25, $yiw_portfolio[$post_type]['read_more']) ?>
                         </div>
                         <div class="clear"></div>
                     </div>                         

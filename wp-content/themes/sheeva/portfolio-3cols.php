@@ -56,7 +56,7 @@
                     <?php endif ?>  
 
                     <h5><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h5>
-                    <?php echo yiw_content(25, yiw_get_option('portfolio_more_text')) ?>
+                    <?php echo yiw_content(25, $yiw_portfolio[$post_type]['read_more']) ?>
                 </li>       
                 <?php $i++; endwhile ?>        
             </ul>                             

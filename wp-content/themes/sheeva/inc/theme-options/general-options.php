@@ -19,9 +19,9 @@ $yiw_options['general'] = array (
         	   'yiw-callback-save' => 'yiw_select_skin_option',
         	   'id' => 'select_skin',
         	   'type' => 'select_skin',
-        	   'options' => array_merge( array( '' => '' ), $yiw_skins ),
+        	   'options' => array_merge( $yiw_skins ),
         	   'button' => __( 'Select', 'yiw' ),
-               'std' => '' ),                   
+               'std' => 'Default' ),                   
          
         array( 'name' => __('Activate responsive', 'yiw'),
         	   'desc' => __('Select if you want to active or not the responsive', 'yiw'),

@@ -179,7 +179,7 @@ $yiw_sizes = array(
         
             'sheeva-content-size' => array(    
                 'default' => 14,     
-                'css_role' => '.slider_sheeva .slide-content',   
+                'css_role' => '.slider_sheeva .slide-content p',   
                 'css_attr' => 'font-size',
                 'panel_title' => __( "Sheeva slider content text", 'yiw' ),   
                 'panel_desc' => __( "Size of the Sheeva slider text.", 'yiw' ) 

@@ -83,9 +83,16 @@ $yiw_mobile = new Mobile_Detect();
  * @since 1.0
  */
 function yiw_register_layout() {
-    global $yiw_layout, $post;
+    global $yiw_layout, $post, $wp_query;
     
-    $layout = ( isset($post->ID) &&  ($layout=get_post_meta( $post->ID, '_layout_page', true )) ) ? $layout : YIW_DEFAULT_LAYOUT_PAGE;
+    if( $wp_query->is_posts_page )
+        $post_id = get_option( 'page_for_posts' );
+    else if ( isset($post->ID) ) 
+        $post_id = $post->ID;
+    else
+        $post_id = 0;
+    
+    $layout = ( $layout=get_post_meta( $post_id, '_layout_page', true ) ) ? $layout : YIW_DEFAULT_LAYOUT_PAGE;
     
     $ex = array(
         'sidebar-right' => apply_filters( 'yiw_force_sidebar_right', array() ),
@@ -94,7 +101,7 @@ function yiw_register_layout() {
     );
     
     // force layouts
-    if ( isset( $post->ID ) ) {
+    if ( $post_id != 0 ) {
         foreach ( $ex as $layout_force => $ids ) {
             if ( empty( $ids ) )
                 continue;

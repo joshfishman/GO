@@ -216,7 +216,8 @@ class YIW_Slider {
 	 * @access public
 	 * @const string
 	 */   
-    const SLIDER_TYPE_ID = 'slider_type';
+    //const SLIDER_TYPE_ID = 'slider_type';
+    var $slider_type_id = 'slider_type';
     
     /**
 	 * The ID option of slides, where get all slides of the slider.
@@ -225,7 +226,8 @@ class YIW_Slider {
 	 * @access public
 	 * @const string
 	 */   
-    const SLIDES_ID = 'slider_%s_slides';
+    //const SLIDES_ID = 'slider_%s_slides';
+    var $slides_id = 'slider_%s_slides';
     
     /**
 	 * Inizialize the slider.
@@ -252,7 +254,7 @@ class YIW_Slider {
      */ 
     function get_slides()
     {
-        $option = sprintf( self::SLIDES_ID, $this->slider_type );
+        $option = sprintf( $this->slides_id, $this->slider_type );
         return yiw_subval_sort( unserialize( yiw_get_option( $option ) ), 'order' );
     } 
     

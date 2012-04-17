@@ -27,6 +27,7 @@ define( 'YIW_MINIMUM_WP_VERSION', '3.0' );
 define( 'YIW_DEFAULT_LAYOUT_PAGE', 'sidebar-right' );
 
 $yiw_skins = array(
+    'Default' => 'Default',
     'BlackWhite' => 'BlackWhite',
     'Corporate' => 'Corporate',
     'Dark' => 'Dark',

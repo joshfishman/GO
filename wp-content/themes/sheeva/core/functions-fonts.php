@@ -494,7 +494,7 @@ function yiw_get_list_google_fonts( $font_name = false ) {
         return '';
     }
 	
-	return $fonts;
+	return apply_filters( 'yiw_google_fonts', $fonts );
 }
 
 function yiw_list_standard_fonts() {
@@ -523,6 +523,6 @@ function yiw_list_standard_fonts() {
 		"Wingdings, 'Zapf Dingbats', sans-serif" => "Wingdings, 'Zapf Dingbats', sans-serif" 
 	);
 	
-	return $standard_fonts;
+	return apply_filters( 'yiw_web_standard_fonts', $standard_fonts );
 }
 ?>

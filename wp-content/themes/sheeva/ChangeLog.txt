@@ -1,3 +1,54 @@
+------------------ VER 1.1.1 -------------
+Fixed : warning with retrieving of widgets
+Fixed : layout for the blog page setted in reading settings
+Fixed : bug with slide deleting
+Fixed : bug with visual tinymce editor
+Fixed : bug with cufon
+Fixed : the "Sheeva slider content text" font option
+Fixed : some options in the Layers Slider
+Fixed : the lightbox effect in the gallery page
+Fixed : option to change the text of the read more button in the portfolio pages
+Fixed : internal templates for the portfolio and testimonial single pages
+Fixed : the double fixed image header in the mobile devices
+Fixed : the price box shortcodes
+Added : the default skin (that is when the theme is installed)
+Added : ability to adapt automatically the widgets in the "Sheeva widget area", in the slider sheeva
+Added : ability to automatically fill contact form fields, using the query string
+Added : the theme options section to change the newsletter form settings
+
+UPDATE
+core/functions-fonts.php
+core/functions-sliders.php
+core/functions-widgets.php
+core/sendemail.php
+core/settings.php
+core/theme-options/include/functions.css
+core/theme-options/include/panel-import.php
+core/theme-options/yiw-panel.php
+core/tinymce/tinymce.php
+css/slider-sheeva.css
+footer.php
+functions.php
+inc/LayerSlider/init.php
+inc/LayerSlider/js/layerslider_admin.js
+inc/config-theme.php
+inc/fonts.php
+inc/functions-theme.php
+inc/infinity-portfolio.php
+inc/post-types.php
+inc/theme-options/general-options.php
+js/jquery.custom.js
+portfolio-3cols.php
+portfolio-big_image.php
+single.php
+slider.php
+style.css
+
+ADDED
+skins/Default.txt
+
+
+
 ------------------ VER 1.1 ---------------
 Fixed : unoslider text caption responsive
 Fixed : dropdown menu overlapped by youtube videos in cycle slider

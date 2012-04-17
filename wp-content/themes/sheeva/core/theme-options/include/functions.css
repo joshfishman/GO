@@ -323,7 +323,7 @@
 	
 .rm_slides .sortItem .delete-button a { color:inherit; text-decoration:none; }
 
-.rm_slides .sortItem .delete-item { text-align: center; width: 60px; margin: 0; position:absolute; bottom:10px; right:10px }
+.rm_slides .sortItem .delete-item { text-align: center; width: 60px; margin: 0; position:absolute; bottom:10px; right:10px; z-index:10; }
 
 .rm_slides div ul#MainMenu li.menu-separator .sortItem {	/* separator */
 	background: #ccc;
